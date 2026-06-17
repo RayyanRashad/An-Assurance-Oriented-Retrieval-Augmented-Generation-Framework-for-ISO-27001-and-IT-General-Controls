@@ -1,0 +1,2111 @@
+[
+  {
+    "doc_id": "itgc_000",
+    "source": "ITGC",
+    "control_id": "ITGC-ACC-01",
+    "domain": "Access Management",
+    "raw_text": "Domain: Access Management\nControl Area: Access Creation\nWhat Auditor Reviews: Ensure accounts are created only after a formal request and approval\nEvidence / Key Checks: - Formal request form - Approval workflow documentation - System logs showing account creation",
+    "metadata": {
+      "control_area": "Access Creation",
+      "what_auditor_reviews": "Ensure accounts are created only after a formal request and approval",
+      "evidence": "- Formal request form - Approval workflow documentation - System logs showing account creation"
+    }
+  },
+  {
+    "doc_id": "itgc_001",
+    "source": "ITGC",
+    "control_id": "ITGC-ACC-02",
+    "domain": "Access Management",
+    "raw_text": "Domain: Access Management\nControl Area: Access Modification\nWhat Auditor Reviews: Ensure changes to accounts are approved and documented\nEvidence / Key Checks: - Request and approval forms - Change logs in the system",
+    "metadata": {
+      "control_area": "Access Modification",
+      "what_auditor_reviews": "Ensure changes to accounts are approved and documented",
+      "evidence": "- Request and approval forms - Change logs in the system"
+    }
+  },
+  {
+    "doc_id": "itgc_002",
+    "source": "ITGC",
+    "control_id": "ITGC-ACC-03",
+    "domain": "Access Management",
+    "raw_text": "Domain: Access Management\nControl Area: Access Revocation / Deletion\nWhat Auditor Reviews: Ensure accounts of leavers or role changers are removed timely\nEvidence / Key Checks: - HR/IT leaver reports - Evidence of account disabling and deletion - Reconciliation reports to check no unauthorized active accounts",
+    "metadata": {
+      "control_area": "Access Revocation / Deletion",
+      "what_auditor_reviews": "Ensure accounts of leavers or role changers are removed timely",
+      "evidence": "- HR/IT leaver reports - Evidence of account disabling and deletion - Reconciliation reports to check no unauthorized active accounts"
+    }
+  },
+  {
+    "doc_id": "itgc_003",
+    "source": "ITGC",
+    "control_id": "ITGC-ACC-04",
+    "domain": "Access Management",
+    "raw_text": "Domain: Access Management\nControl Area: Privileged Accounts\nWhat Auditor Reviews: Ensure privileged access is limited to authorized personnel\nEvidence / Key Checks: - List of privileged accounts from IT - Approval for privileged access - Periodic review logs",
+    "metadata": {
+      "control_area": "Privileged Accounts",
+      "what_auditor_reviews": "Ensure privileged access is limited to authorized personnel",
+      "evidence": "- List of privileged accounts from IT - Approval for privileged access - Periodic review logs"
+    }
+  },
+  {
+    "doc_id": "itgc_004",
+    "source": "ITGC",
+    "control_id": "ITGC-ACC-05",
+    "domain": "Access Management",
+    "raw_text": "Domain: Access Management\nControl Area: Segregation of Duties (SoD)\nWhat Auditor Reviews: Ensure no user has conflicting roles\nEvidence / Key Checks: - Role assignment reports - SoD conflict analysis - Approvals for exceptions",
+    "metadata": {
+      "control_area": "Segregation of Duties (SoD)",
+      "what_auditor_reviews": "Ensure no user has conflicting roles",
+      "evidence": "- Role assignment reports - SoD conflict analysis - Approvals for exceptions"
+    }
+  },
+  {
+    "doc_id": "itgc_005",
+    "source": "ITGC",
+    "control_id": "ITGC-ACC-06",
+    "domain": "Access Management",
+    "raw_text": "Domain: Access Management\nControl Area: Password Management\nWhat Auditor Reviews: Ensure passwords are complex and changed periodically\nEvidence / Key Checks: - Password policy documentation - System enforcement settings - Sample user password change logs",
+    "metadata": {
+      "control_area": "Password Management",
+      "what_auditor_reviews": "Ensure passwords are complex and changed periodically",
+      "evidence": "- Password policy documentation - System enforcement settings - Sample user password change logs"
+    }
+  },
+  {
+    "doc_id": "itgc_006",
+    "source": "ITGC",
+    "control_id": "ITGC-ACC-07",
+    "domain": "Access Management",
+    "raw_text": "Domain: Access Management\nControl Area: User Access Review\nWhat Auditor Reviews: Ensure periodic review of user access\nEvidence / Key Checks: - Access review reports - Evidence of corrective actions - Approvals for continued access",
+    "metadata": {
+      "control_area": "User Access Review",
+      "what_auditor_reviews": "Ensure periodic review of user access",
+      "evidence": "- Access review reports - Evidence of corrective actions - Approvals for continued access"
+    }
+  },
+  {
+    "doc_id": "itgc_007",
+    "source": "ITGC",
+    "control_id": "ITGC-CHA-01",
+    "domain": "Change Managment",
+    "raw_text": "Domain: Change Managment\nControl Area: Change Request & Logging\nWhat Auditor Reviews: Formal request, logging, tracking, description & impact",
+    "metadata": {
+      "control_area": "Change Request & Logging",
+      "what_auditor_reviews": "Formal request, logging, tracking, description & impact",
+      "evidence": ""
+    }
+  },
+  {
+    "doc_id": "itgc_008",
+    "source": "ITGC",
+    "control_id": "ITGC-CHA-02",
+    "domain": "Change Managment",
+    "raw_text": "Domain: Change Managment\nControl Area: Segregation of Duties (SoD)\nWhat Auditor Reviews: Separate roles for requester, approver, developer, tester, deployer",
+    "metadata": {
+      "control_area": "Segregation of Duties (SoD)",
+      "what_auditor_reviews": "Separate roles for requester, approver, developer, tester, deployer",
+      "evidence": ""
+    }
+  },
+  {
+    "doc_id": "itgc_009",
+    "source": "ITGC",
+    "control_id": "ITGC-CHA-03",
+    "domain": "Change Managment",
+    "raw_text": "Domain: Change Managment\nControl Area: Change Approval\nWhat Auditor Reviews: CAB approval based on risk/impact",
+    "metadata": {
+      "control_area": "Change Approval",
+      "what_auditor_reviews": "CAB approval based on risk/impact",
+      "evidence": ""
+    }
+  },
+  {
+    "doc_id": "itgc_010",
+    "source": "ITGC",
+    "control_id": "ITGC-CHA-04",
+    "domain": "Change Managment",
+    "raw_text": "Domain: Change Managment\nControl Area: Impact & Risk Assessment\nWhat Auditor Reviews: Evaluate business/technical impact, classify changes",
+    "metadata": {
+      "control_area": "Impact & Risk Assessment",
+      "what_auditor_reviews": "Evaluate business/technical impact, classify changes",
+      "evidence": ""
+    }
+  },
+  {
+    "doc_id": "itgc_011",
+    "source": "ITGC",
+    "control_id": "ITGC-CHA-05",
+    "domain": "Change Managment",
+    "raw_text": "Domain: Change Managment\nControl Area: Development & Testing\nWhat Auditor Reviews: Controlled dev/test environment, unit/integration testing",
+    "metadata": {
+      "control_area": "Development & Testing",
+      "what_auditor_reviews": "Controlled dev/test environment, unit/integration testing",
+      "evidence": ""
+    }
+  },
+  {
+    "doc_id": "itgc_012",
+    "source": "ITGC",
+    "control_id": "ITGC-CHA-06",
+    "domain": "Change Managment",
+    "raw_text": "Domain: Change Managment\nControl Area: UAT Approval\nWhat Auditor Reviews: Business approval before production rollout",
+    "metadata": {
+      "control_area": "UAT Approval",
+      "what_auditor_reviews": "Business approval before production rollout",
+      "evidence": ""
+    }
+  },
+  {
+    "doc_id": "itgc_013",
+    "source": "ITGC",
+    "control_id": "ITGC-CHA-07",
+    "domain": "Change Managment",
+    "raw_text": "Domain: Change Managment\nControl Area: Deployment & Rollback\nWhat Auditor Reviews: Follow plan, rollback readiness, scheduled deployment",
+    "metadata": {
+      "control_area": "Deployment & Rollback",
+      "what_auditor_reviews": "Follow plan, rollback readiness, scheduled deployment",
+      "evidence": ""
+    }
+  },
+  {
+    "doc_id": "itgc_014",
+    "source": "ITGC",
+    "control_id": "ITGC-CHA-08",
+    "domain": "Change Managment",
+    "raw_text": "Domain: Change Managment\nControl Area: Post-Implementation Review\nWhat Auditor Reviews: Review success/failure, update documentation",
+    "metadata": {
+      "control_area": "Post-Implementation Review",
+      "what_auditor_reviews": "Review success/failure, update documentation",
+      "evidence": ""
+    }
+  },
+  {
+    "doc_id": "itgc_015",
+    "source": "ITGC",
+    "control_id": "ITGC-CHA-09",
+    "domain": "Change Managment",
+    "raw_text": "Domain: Change Managment\nControl Area: Emergency Changes\nWhat Auditor Reviews: Fast-track approval + post-review",
+    "metadata": {
+      "control_area": "Emergency Changes",
+      "what_auditor_reviews": "Fast-track approval + post-review",
+      "evidence": ""
+    }
+  },
+  {
+    "doc_id": "itgc_016",
+    "source": "ITGC",
+    "control_id": "ITGC-CHA-10",
+    "domain": "Change Managment",
+    "raw_text": "Domain: Change Managment\nControl Area: Documentation & Audit Trail\nWhat Auditor Reviews: Full traceability of change lifecycle",
+    "metadata": {
+      "control_area": "Documentation & Audit Trail",
+      "what_auditor_reviews": "Full traceability of change lifecycle",
+      "evidence": ""
+    }
+  },
+  {
+    "doc_id": "itgc_017",
+    "source": "ITGC",
+    "control_id": "ITGC-CHA-11",
+    "domain": "Change Managment",
+    "raw_text": "Domain: Change Managment\nControl Area: Monitoring & Reporting\nWhat Auditor Reviews: Track metrics and compliance",
+    "metadata": {
+      "control_area": "Monitoring & Reporting",
+      "what_auditor_reviews": "Track metrics and compliance",
+      "evidence": ""
+    }
+  },
+  {
+    "doc_id": "itgc_018",
+    "source": "ITGC",
+    "control_id": "ITGC-COM-01",
+    "domain": "Computer Operation",
+    "raw_text": "Domain: Computer Operation\nControl Area: Backup & Recovery\nWhat Auditor Reviews: Ensure critical data is regularly backed up and can be restored\nEvidence / Key Checks: - Backup schedules (daily/weekly/monthly) for critical systems - Onsite, offsite, or cloud backup reports - Restricted access to backup configurations - Segregation of duties between backup operators and live data operators - Periodic restoration test results",
+    "metadata": {
+      "control_area": "Backup & Recovery",
+      "what_auditor_reviews": "Ensure critical data is regularly backed up and can be restored",
+      "evidence": "- Backup schedules (daily/weekly/monthly) for critical systems - Onsite, offsite, or cloud backup reports - Restricted access to backup configurations - Segregation of duties between backup operators and live data operators - Periodic restoration test results"
+    }
+  },
+  {
+    "doc_id": "itgc_019",
+    "source": "ITGC",
+    "control_id": "ITGC-COM-02",
+    "domain": "Computer Operation",
+    "raw_text": "Domain: Computer Operation\nControl Area: Patch and System Updates\nWhat Auditor Reviews: Ensure systems remain secure and stable\nEvidence / Key Checks: - Formal patch management policy and approval process - Testing of patches before deployment - Change management records for patch deployment - Access restricted to authorized IT personnel - Documentation of failed patch attempts and resolution",
+    "metadata": {
+      "control_area": "Patch and System Updates",
+      "what_auditor_reviews": "Ensure systems remain secure and stable",
+      "evidence": "- Formal patch management policy and approval process - Testing of patches before deployment - Change management records for patch deployment - Access restricted to authorized IT personnel - Documentation of failed patch attempts and resolution"
+    }
+  },
+  {
+    "doc_id": "itgc_020",
+    "source": "ITGC",
+    "control_id": "ITGC-COM-03",
+    "domain": "Computer Operation",
+    "raw_text": "Domain: Computer Operation\nControl Area: Job Scheduling and Processing\nWhat Auditor Reviews: Ensure IT jobs are executed accurately and on time\nEvidence / Key Checks: - Documented job schedules and procedures - Defined job dependencies and sequences - Logs for job completion, failures, or exceptions - Alerts triggered for failures to responsible staff",
+    "metadata": {
+      "control_area": "Job Scheduling and Processing",
+      "what_auditor_reviews": "Ensure IT jobs are executed accurately and on time",
+      "evidence": "- Documented job schedules and procedures - Defined job dependencies and sequences - Logs for job completion, failures, or exceptions - Alerts triggered for failures to responsible staff"
+    }
+  },
+  {
+    "doc_id": "itgc_021",
+    "source": "ITGC",
+    "control_id": "ITGC-COM-04",
+    "domain": "Computer Operation",
+    "raw_text": "Domain: Computer Operation\nControl Area: Monitoring and Alerts\nWhat Auditor Reviews: Ensure timely detection and response to operational issues\nEvidence / Key Checks: - Automated monitoring of system performance, errors, and job failures - Alerts configured for operators and supervisors - Escalation procedures for critical incidents - Documentation of incident resolution and corrective actions",
+    "metadata": {
+      "control_area": "Monitoring and Alerts",
+      "what_auditor_reviews": "Ensure timely detection and response to operational issues",
+      "evidence": "- Automated monitoring of system performance, errors, and job failures - Alerts configured for operators and supervisors - Escalation procedures for critical incidents - Documentation of incident resolution and corrective actions"
+    }
+  },
+  {
+    "doc_id": "itgc_022",
+    "source": "ITGC",
+    "control_id": "ITGC-COM-05",
+    "domain": "Computer Operation",
+    "raw_text": "Domain: Computer Operation\nControl Area: Access and Segregation of Duties\nWhat Auditor Reviews: Prevent unauthorized changes or access to production systems\nEvidence / Key Checks: - Operators have only necessary access; no developer or approver rights - Periodic review of user accounts and access rights - Segregation of operations, development, and change management roles",
+    "metadata": {
+      "control_area": "Access and Segregation of Duties",
+      "what_auditor_reviews": "Prevent unauthorized changes or access to production systems",
+      "evidence": "- Operators have only necessary access; no developer or approver rights - Periodic review of user accounts and access rights - Segregation of operations, development, and change management roles"
+    }
+  },
+  {
+    "doc_id": "itgc_023",
+    "source": "ITGC",
+    "control_id": "ITGC-COM-06",
+    "domain": "Computer Operation",
+    "raw_text": "Domain: Computer Operation\nControl Area: Physical and Environmental Controls\nWhat Auditor Reviews: Ensure the operational environment is secure and reliable\nEvidence / Key Checks: - Server rooms restricted to authorized personnel - Fire suppression, temperature, humidity, UPS/power backup systems - Procedures for safe system shutdowns and restarts",
+    "metadata": {
+      "control_area": "Physical and Environmental Controls",
+      "what_auditor_reviews": "Ensure the operational environment is secure and reliable",
+      "evidence": "- Server rooms restricted to authorized personnel - Fire suppression, temperature, humidity, UPS/power backup systems - Procedures for safe system shutdowns and restarts"
+    }
+  },
+  {
+    "doc_id": "itgc_024",
+    "source": "ITGC",
+    "control_id": "ITGC-COM-07",
+    "domain": "Computer Operation",
+    "raw_text": "Domain: Computer Operation\nControl Area: Problem and Error Handling\nWhat Auditor Reviews: Ensure errors are promptly identified, reported, and resolved\nEvidence / Key Checks: - Formal error handling procedures - Tracking of exceptions and failures until resolution - Management review of critical incidents and corrective actions",
+    "metadata": {
+      "control_area": "Problem and Error Handling",
+      "what_auditor_reviews": "Ensure errors are promptly identified, reported, and resolved",
+      "evidence": "- Formal error handling procedures - Tracking of exceptions and failures until resolution - Management review of critical incidents and corrective actions"
+    }
+  },
+  {
+    "doc_id": "itgc_025",
+    "source": "ITGC",
+    "control_id": "ITGC-COM-08",
+    "domain": "Computer Operation",
+    "raw_text": "Domain: Computer Operation\nControl Area: Documentation and Procedures\nWhat Auditor Reviews: Ensure operations follow consistent, auditable processes\nEvidence / Key Checks: - Operations manuals and SOPs maintained - Periodic review and updates of procedures - Staff trained on operational policies and procedures",
+    "metadata": {
+      "control_area": "Documentation and Procedures",
+      "what_auditor_reviews": "Ensure operations follow consistent, auditable processes",
+      "evidence": "- Operations manuals and SOPs maintained - Periodic review and updates of procedures - Staff trained on operational policies and procedures"
+    }
+  },
+  {
+    "doc_id": "itgc_026",
+    "source": "ITGC",
+    "control_id": "ITGC-PRO-01",
+    "domain": "Program development",
+    "raw_text": "Domain: Program development\nControl Area: Program Development Standards\nWhat Auditor Reviews: Ensure programs are developed following formal standards and guidelines\nEvidence / Key Checks: - Development guidelines documentation- Coding standards adherence reports- Peer review records",
+    "metadata": {
+      "control_area": "Program Development Standards",
+      "what_auditor_reviews": "Ensure programs are developed following formal standards and guidelines",
+      "evidence": "- Development guidelines documentation- Coding standards adherence reports- Peer review records"
+    }
+  },
+  {
+    "doc_id": "itgc_027",
+    "source": "ITGC",
+    "control_id": "ITGC-PRO-02",
+    "domain": "Program development",
+    "raw_text": "Domain: Program development\nControl Area: Program Change Management\nWhat Auditor Reviews: Ensure all changes to programs are formally requested, approved, and tested before deployment\nEvidence / Key Checks: - Change request forms- Approval workflow documentation- Test plans and results- Version control logs",
+    "metadata": {
+      "control_area": "Program Change Management",
+      "what_auditor_reviews": "Ensure all changes to programs are formally requested, approved, and tested before deployment",
+      "evidence": "- Change request forms- Approval workflow documentation- Test plans and results- Version control logs"
+    }
+  },
+  {
+    "doc_id": "itgc_028",
+    "source": "ITGC",
+    "control_id": "ITGC-PRO-03",
+    "domain": "Program development",
+    "raw_text": "Domain: Program development\nControl Area: Testing and Quality Assurance\nWhat Auditor Reviews: Ensure programs undergo adequate testing to validate functionality and detect errors\nEvidence / Key Checks: - Test plans and scripts- Test execution results- Defect logs and resolution records",
+    "metadata": {
+      "control_area": "Testing and Quality Assurance",
+      "what_auditor_reviews": "Ensure programs undergo adequate testing to validate functionality and detect errors",
+      "evidence": "- Test plans and scripts- Test execution results- Defect logs and resolution records"
+    }
+  },
+  {
+    "doc_id": "itgc_029",
+    "source": "ITGC",
+    "control_id": "ITGC-PRO-04",
+    "domain": "Program development",
+    "raw_text": "Domain: Program development\nControl Area: Program Migration / Deployment\nWhat Auditor Reviews: Ensure programs are moved to production in a controlled and approved manner\nEvidence / Key Checks: - Deployment approval forms- Migration checklists- Post-deployment validation reports",
+    "metadata": {
+      "control_area": "Program Migration / Deployment",
+      "what_auditor_reviews": "Ensure programs are moved to production in a controlled and approved manner",
+      "evidence": "- Deployment approval forms- Migration checklists- Post-deployment validation reports"
+    }
+  },
+  {
+    "doc_id": "itgc_030",
+    "source": "ITGC",
+    "control_id": "ITGC-PRO-05",
+    "domain": "Program development",
+    "raw_text": "Domain: Program development\nControl Area: Documentation\nWhat Auditor Reviews: Ensure program documentation is complete, accurate, and updated\nEvidence / Key Checks: - User manuals- Technical design documents- System and program specifications",
+    "metadata": {
+      "control_area": "Documentation",
+      "what_auditor_reviews": "Ensure program documentation is complete, accurate, and updated",
+      "evidence": "- User manuals- Technical design documents- System and program specifications"
+    }
+  },
+  {
+    "doc_id": "itgc_031",
+    "source": "ITGC",
+    "control_id": "ITGC-PRO-06",
+    "domain": "Program development",
+    "raw_text": "Domain: Program development\nControl Area: Roles and Responsibilities\nWhat Auditor Reviews: Ensure roles are clearly defined for developers, testers, project managers, and approvers\nEvidence / Key Checks: - RACI matrices- Job descriptions / role definitions- Approval authority records",
+    "metadata": {
+      "control_area": "Roles and Responsibilities",
+      "what_auditor_reviews": "Ensure roles are clearly defined for developers, testers, project managers, and approvers",
+      "evidence": "- RACI matrices- Job descriptions / role definitions- Approval authority records"
+    }
+  },
+  {
+    "doc_id": "itgc_032",
+    "source": "ITGC",
+    "control_id": "ITGC-PRO-07",
+    "domain": "Program development",
+    "raw_text": "Domain: Program development\nControl Area: IT Project Management\nWhat Auditor Reviews: Ensure IT projects follow formal project management processes from initiation to closure\nEvidence / Key Checks: - Project charter / project plan- Milestones and timeline tracking- Resource allocation records- Risk management logs",
+    "metadata": {
+      "control_area": "IT Project Management",
+      "what_auditor_reviews": "Ensure IT projects follow formal project management processes from initiation to closure",
+      "evidence": "- Project charter / project plan- Milestones and timeline tracking- Resource allocation records- Risk management logs"
+    }
+  },
+  {
+    "doc_id": "itgc_033",
+    "source": "ITGC",
+    "control_id": "ITGC-PRO-08",
+    "domain": "Program development",
+    "raw_text": "Domain: Program development\nControl Area: Project Outputs / Deliverables\nWhat Auditor Reviews: Ensure the project delivers expected outputs and aligns with business requirements\nEvidence / Key Checks: - Functional specifications vs delivered system- Acceptance sign-offs from business users- Output validation reports",
+    "metadata": {
+      "control_area": "Project Outputs / Deliverables",
+      "what_auditor_reviews": "Ensure the project delivers expected outputs and aligns with business requirements",
+      "evidence": "- Functional specifications vs delivered system- Acceptance sign-offs from business users- Output validation reports"
+    }
+  },
+  {
+    "doc_id": "itgc_034",
+    "source": "ITGC",
+    "control_id": "ITGC-PRO-09",
+    "domain": "Program development",
+    "raw_text": "Domain: Program development\nControl Area: Project Strategy / Planning\nWhat Auditor Reviews: Ensure development aligns with organizational strategy and objectives\nEvidence / Key Checks: - Project initiation documents- Budget and resource approval documents- Alignment with IT roadmap",
+    "metadata": {
+      "control_area": "Project Strategy / Planning",
+      "what_auditor_reviews": "Ensure development aligns with organizational strategy and objectives",
+      "evidence": "- Project initiation documents- Budget and resource approval documents- Alignment with IT roadmap"
+    }
+  },
+  {
+    "doc_id": "itgc_035",
+    "source": "ITGC",
+    "control_id": "ITGC-PRO-10",
+    "domain": "Program development",
+    "raw_text": "Domain: Program development\nControl Area: Post-Implementation Review / Lessons Learned\nWhat Auditor Reviews: Ensure lessons learned are captured and improvements fed back into future projects\nEvidence / Key Checks: - Post-implementation review reports- Lessons learned logs- Improvement action plans",
+    "metadata": {
+      "control_area": "Post-Implementation Review / Lessons Learned",
+      "what_auditor_reviews": "Ensure lessons learned are captured and improvements fed back into future projects",
+      "evidence": "- Post-implementation review reports- Lessons learned logs- Improvement action plans"
+    }
+  },
+  {
+    "doc_id": "itgc_036",
+    "source": "ITGC",
+    "control_id": "ITGC-PRO-11",
+    "domain": "Program development",
+    "raw_text": "Domain: Program development\nControl Area: Cost / Budget Management\nWhat Auditor Reviews: Ensure project costs are planned, monitored, and controlled\nEvidence / Key Checks: - Approved project budget- Expense tracking reports- Budget variance analysis- Resource allocation vs budget",
+    "metadata": {
+      "control_area": "Cost / Budget Management",
+      "what_auditor_reviews": "Ensure project costs are planned, monitored, and controlled",
+      "evidence": "- Approved project budget- Expense tracking reports- Budget variance analysis- Resource allocation vs budget"
+    }
+  },
+  {
+    "doc_id": "iso27001_037",
+    "source": "ISO27001",
+    "control_id": "ISO-4.1",
+    "domain": "Clause 4",
+    "raw_text": "4.1  Understanding the organization and its context\nThe organization shall determine external and internal issues that are relevant to its purpose and that \naffect its ability to achieve the intended outcome(s) of its information security management system.\nNOTE Determining these issues refers to establishing the external and internal context of the organization \nconsidered in Clause 5.4.1 of ISO 31000:2018[5].",
+    "metadata": {
+      "clause_id": "4.1",
+      "clause_title": "Understanding the organization and its context",
+      "section_type": "main_clause",
+      "page_ref": 7
+    }
+  },
+  {
+    "doc_id": "iso27001_038",
+    "source": "ISO27001",
+    "control_id": "ISO-4.2",
+    "domain": "Clause 4",
+    "raw_text": "4.2  Understanding the needs and expectations of interested parties\nThe organization shall determine:\na) interested parties that are relevant to the information security management system; \nb) the relevant requirements of these interested parties; \nc) which of these requirements will be addressed through the information security management \nsystem. \n1© ISO/IEC 2022 – All rights reserved  \n--``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n\n[PAGE 8]\nISO/IEC 27001:2022(E)\nNOTE The requirements of interested parties can include legal and regulatory requirements and contractual \nobligations.",
+    "metadata": {
+      "clause_id": "4.2",
+      "clause_title": "Understanding the needs and expectations of interested parties",
+      "section_type": "main_clause",
+      "page_ref": 7
+    }
+  },
+  {
+    "doc_id": "iso27001_039",
+    "source": "ISO27001",
+    "control_id": "ISO-4.3",
+    "domain": "Clause 4",
+    "raw_text": "4.3  Determining the scope of the information security management system\nThe organization shall determine the boundaries and applicability of the information security \nmanagement system to establish its scope.\nWhen determining this scope, the organization shall consider:\na) the external and internal issues referred to in 4.1;\nb) the requirements referred to in 4.2; \nc) interfaces and dependencies between activities performed by the organization, and those that are \nperformed by other organizations.\nThe scope shall be available as documented information.",
+    "metadata": {
+      "clause_id": "4.3",
+      "clause_title": "Determining the scope of the information security management system",
+      "section_type": "main_clause",
+      "page_ref": 8
+    }
+  },
+  {
+    "doc_id": "iso27001_040",
+    "source": "ISO27001",
+    "control_id": "ISO-4.4",
+    "domain": "Clause 4",
+    "raw_text": "4.4  Information security management system\nThe organization shall establish, implement, maintain and continually improve an information security \nmanagement system, including the processes needed and their interactions, in accordance with the \nrequirements of this document.",
+    "metadata": {
+      "clause_id": "4.4",
+      "clause_title": "Information security management system",
+      "section_type": "main_clause",
+      "page_ref": 8
+    }
+  },
+  {
+    "doc_id": "iso27001_041",
+    "source": "ISO27001",
+    "control_id": "ISO-5.1",
+    "domain": "Clause 5",
+    "raw_text": "5.1  Leadership and commitment\nTop management shall demonstrate leadership and commitment with respect to the information \nsecurity management system by:\na) ensuring the information security policy and the information security objectives are established \nand are compatible with the strategic direction of the organization;\nb) ensuring the integration of the information security management system requirements into the \norganization’s processes;\nc) ensuring that the resources needed for the information security management system are available;\nd) communicating the importance of effective information security management and of conforming \nto the information security management system requirements;\ne) ensuring that the information security management system achieves its intended outcome(s);\nf) directing and supporting persons to contribute to the effectiveness of the information security \nmanagement system;\ng) promoting continual improvement; and\nh) supporting other relevant management roles to demonstrate their leadership as it applies to their \nareas of responsibility.\nNOTE Reference to “business” in this document can be interpreted broadly to mean those activities that are \ncore to the purposes of the organization’s existence.\n   © ISO/IEC 2022 – All rights reserved\n  \n2\n--``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n\n[PAGE 9]\nISO/IEC 27001:2022(E)",
+    "metadata": {
+      "clause_id": "5.1",
+      "clause_title": "Leadership and commitment",
+      "section_type": "main_clause",
+      "page_ref": 8
+    }
+  },
+  {
+    "doc_id": "iso27001_042",
+    "source": "ISO27001",
+    "control_id": "ISO-5.2",
+    "domain": "Clause 5",
+    "raw_text": "5.2  Policy\nTop management shall establish an information security policy that:\na) is appropriate to the purpose of the organization;\nb) includes information security objectives (see 6.2) or provides the framework for setting information \nsecurity objectives;\nc) includes a commitment to satisfy applicable requirements related to information security; \nd) includes a commitment to continual improvement of the information security management system.\nThe information security policy shall:\ne) be available as documented information;\nf) be communicated within the organization; \ng) be available to interested parties, as appropriate.",
+    "metadata": {
+      "clause_id": "5.2",
+      "clause_title": "Policy",
+      "section_type": "main_clause",
+      "page_ref": 9
+    }
+  },
+  {
+    "doc_id": "iso27001_043",
+    "source": "ISO27001",
+    "control_id": "ISO-5.3",
+    "domain": "Clause 5",
+    "raw_text": "5.3  Organizational roles, responsibilities and authorities\nTop management shall ensure that the responsibilities and authorities for roles relevant to information \nsecurity are assigned and communicated within the organization.\nTop management shall assign the responsibility and authority for:\na) ensuring that the information security management system conforms to the requirements of this \ndocument; \nb) reporting on the performance of the information security management system to top management.\nNOTE Top management can also assign responsibilities and authorities for reporting performance of the \ninformation security management system within the organization.",
+    "metadata": {
+      "clause_id": "5.3",
+      "clause_title": "Organizational roles, responsibilities and authorities",
+      "section_type": "main_clause",
+      "page_ref": 9
+    }
+  },
+  {
+    "doc_id": "iso27001_044",
+    "source": "ISO27001",
+    "control_id": "ISO-6.1.1",
+    "domain": "Clause 6",
+    "raw_text": "6.1.1  General\nWhen planning for the information security management system, the organization shall consider \nthe issues referred to in 4.1 and the requirements referred to in 4.2 and determine the risks and \nopportunities that need to be addressed to:\na) ensure the information security management system can achieve its intended outcome(s);\nb) prevent, or reduce, undesired effects; \nc) achieve continual improvement.\nThe organization shall plan:\nd) actions to address these risks and opportunities; and\ne) how to\n1) integrate and implement the actions into its information security management system \nprocesses; and\n2) evaluate the effectiveness of these actions.\n© ISO/IEC 2022 – All rights reserved   \n \n3\n--``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n\n[PAGE 10]\nISO/IEC 27001:2022(E)",
+    "metadata": {
+      "clause_id": "6.1.1",
+      "clause_title": "General",
+      "section_type": "main_clause",
+      "page_ref": 9
+    }
+  },
+  {
+    "doc_id": "iso27001_045",
+    "source": "ISO27001",
+    "control_id": "ISO-6.1.2",
+    "domain": "Clause 6",
+    "raw_text": "6.1.2  Information security risk assessment\nThe organization shall define and apply an information security risk assessment process that:\na) establishes and maintains information security risk criteria that include:\n1) the risk acceptance criteria; and\n2) criteria for performing information security risk assessments;\nb) ensures that repeated information security risk assessments produce consistent, valid and \ncomparable results;\nc) identifies the information security risks:\n1) apply the information security risk assessment process to identify risks associated with \nthe loss of confidentiality, integrity and availability for information within the scope of the \ninformation security management system; and\n2) identify the risk owners;\nd) analyses the information security risks:\n1) assess the potential consequences that would result if the risks identified in 6.1.2 c) 1) were to \nmaterialize;\n2) assess the realistic likelihood of the occurrence of the risks identified in 6.1.2 c) 1); and\n3) determine the levels of risk;\ne) evaluates the information security risks:\n1) compare the results of risk analysis with the risk criteria established in 6.1.2 a); and\n2) prioritize the analysed risks for risk treatment.\nThe organization shall retain documented information about the information security risk assessment \nprocess.",
+    "metadata": {
+      "clause_id": "6.1.2",
+      "clause_title": "Information security risk assessment",
+      "section_type": "main_clause",
+      "page_ref": 10
+    }
+  },
+  {
+    "doc_id": "iso27001_046",
+    "source": "ISO27001",
+    "control_id": "ISO-6.1.3",
+    "domain": "Clause 6",
+    "raw_text": "6.1.3  Information security risk treatment\nThe organization shall define and apply an information security risk treatment process to:\na) select appropriate information security risk treatment options, taking account of the risk \nassessment results;\nb) determine all controls that are necessary to implement the information security risk treatment \noption(s) chosen;\nNOTE 1 Organizations can design controls as required, or identify them from any source.\nc) compare the controls determined in 6.1.3 b) above with those in Annex A and verify that no \nnecessary controls have been omitted;\nNOTE 2 Annex A contains a list of possible information security controls. Users of this document are \ndirected to Annex A to ensure that no necessary information security controls are overlooked.\nNOTE 3 The information security controls listed in Annex A are not exhaustive and additional information \nsecurity controls can be included if needed.\nd) produce a Statement of Applicability that contains:\n— the necessary controls (see 6.1.3 b) and c));\n   © ISO/IEC 2022 – All rights reserved\n  \n4\n--``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n\n[PAGE 11]\nISO/IEC 27001:2022(E)\n— justification for their inclusion;\n— whether the necessary controls are implemented or not; and\n— the justification for excluding any of the Annex A controls.\ne) formulate an information security risk treatment plan; and\nf) obtain risk owners’ approval of the information security risk treatment plan and acceptance of the \nresidual information security risks.\nThe organization shall retain documented information about the information security risk treatment \nprocess.\nNOTE 4 The information security risk assessment and treatment process in this document aligns with the \nprinciples and generic guidelines provided in ISO 31000 [5].",
+    "metadata": {
+      "clause_id": "6.1.3",
+      "clause_title": "Information security risk treatment",
+      "section_type": "main_clause",
+      "page_ref": 10
+    }
+  },
+  {
+    "doc_id": "iso27001_047",
+    "source": "ISO27001",
+    "control_id": "ISO-6.2",
+    "domain": "Clause 6",
+    "raw_text": "6.2  Information security objectives and planning to achieve them\nThe organization shall establish information security objectives at relevant functions and levels.\nThe information security objectives shall:\na) be consistent with the information security policy;\nb) be measurable (if practicable);\nc) take into account applicable information security requirements, and results from risk assessment \nand risk treatment;\nd) be monitored;\ne) be communicated; \nf) be updated as appropriate;\ng) be available as documented information.\nThe organization shall retain documented information on the information security objectives.\nWhen planning how to achieve its information security objectives, the organization shall determine:\nh) what will be done;\ni) what resources will be required;\nj) who will be responsible;\nk) when it will be completed; and\nl) how the results will be evaluated.",
+    "metadata": {
+      "clause_id": "6.2",
+      "clause_title": "Information security objectives and planning to achieve them",
+      "section_type": "main_clause",
+      "page_ref": 11
+    }
+  },
+  {
+    "doc_id": "iso27001_048",
+    "source": "ISO27001",
+    "control_id": "ISO-6.3",
+    "domain": "Clause 6",
+    "raw_text": "6.3 Planning of changes\nWhen the organization determines the need for changes to the information security management \nsystem, the changes shall be carried out in a planned manner.\n© ISO/IEC 2022 – All rights reserved   \n \n5\n--``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n\n[PAGE 12]\nISO/IEC 27001:2022(E)",
+    "metadata": {
+      "clause_id": "6.3",
+      "clause_title": "Planning of changes",
+      "section_type": "main_clause",
+      "page_ref": 11
+    }
+  },
+  {
+    "doc_id": "iso27001_049",
+    "source": "ISO27001",
+    "control_id": "ISO-7.1",
+    "domain": "Clause 7",
+    "raw_text": "7.1  Resources\nThe organization shall determine and provide the resources needed for the establishment, \nimplementation, maintenance and continual improvement of the information security management \nsystem.",
+    "metadata": {
+      "clause_id": "7.1",
+      "clause_title": "Resources",
+      "section_type": "main_clause",
+      "page_ref": 12
+    }
+  },
+  {
+    "doc_id": "iso27001_050",
+    "source": "ISO27001",
+    "control_id": "ISO-7.2",
+    "domain": "Clause 7",
+    "raw_text": "7.2  Competence\nThe organization shall:\na) determine the necessary competence of person(s) doing work under its control that affects its \ninformation security performance;\nb) ensure that these persons are competent on the basis of appropriate education, training, or \nexperience;\nc) where applicable, take actions to acquire the necessary competence, and evaluate the effectiveness \nof the actions taken; and\nd) retain appropriate documented information as evidence of competence.\nNOTE Applicable actions can include, for example: the provision of training to, the mentoring of, or the re-\nassignment of current employees; or the hiring or contracting of competent persons.",
+    "metadata": {
+      "clause_id": "7.2",
+      "clause_title": "Competence",
+      "section_type": "main_clause",
+      "page_ref": 12
+    }
+  },
+  {
+    "doc_id": "iso27001_051",
+    "source": "ISO27001",
+    "control_id": "ISO-7.3",
+    "domain": "Clause 7",
+    "raw_text": "7.3  Awareness\nPersons doing work under the organization’s control shall be aware of:\na) the information security policy;\nb) their contribution to the effectiveness of the information security management system, including \nthe benefits of improved information security performance; and\nc) the implications of not conforming with the information security management system \nrequirements.",
+    "metadata": {
+      "clause_id": "7.3",
+      "clause_title": "Awareness",
+      "section_type": "main_clause",
+      "page_ref": 12
+    }
+  },
+  {
+    "doc_id": "iso27001_052",
+    "source": "ISO27001",
+    "control_id": "ISO-7.4",
+    "domain": "Clause 7",
+    "raw_text": "7.4  Communication\nThe organization shall determine the need for internal and external communications relevant to the \ninformation security management system including:\na) on what to communicate;\nb) when to communicate;\nc) with whom to communicate;\nd) how to communicate.",
+    "metadata": {
+      "clause_id": "7.4",
+      "clause_title": "Communication",
+      "section_type": "main_clause",
+      "page_ref": 12
+    }
+  },
+  {
+    "doc_id": "iso27001_053",
+    "source": "ISO27001",
+    "control_id": "ISO-7.5.1",
+    "domain": "Clause 7",
+    "raw_text": "7.5.1  General\nThe organization’s information security management system shall include:\na) documented information required by this document; and\n   © ISO/IEC 2022 – All rights reserved\n  \n6\n--``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n\n[PAGE 13]\nISO/IEC 27001:2022(E)\nb) documented information determined by the organization as being necessary for the effectiveness \nof the information security management system.\nNOTE The extent of documented information for an information security management system can differ \nfrom one organization to another due to:\n1) the size of organization and its type of activities, processes, products and services;\n2) the complexity of processes and their interactions; and\n3) the competence of persons.",
+    "metadata": {
+      "clause_id": "7.5.1",
+      "clause_title": "General",
+      "section_type": "main_clause",
+      "page_ref": 12
+    }
+  },
+  {
+    "doc_id": "iso27001_054",
+    "source": "ISO27001",
+    "control_id": "ISO-7.5.2",
+    "domain": "Clause 7",
+    "raw_text": "7.5.2  Creating and updating\nWhen creating and updating documented information the organization shall ensure appropriate:\na) identification and description (e.g. a title, date, author, or reference number);\nb) format (e.g. language, software version, graphics) and media (e.g. paper, electronic); and\nc) review and approval for suitability and adequacy.",
+    "metadata": {
+      "clause_id": "7.5.2",
+      "clause_title": "Creating and updating",
+      "section_type": "main_clause",
+      "page_ref": 13
+    }
+  },
+  {
+    "doc_id": "iso27001_055",
+    "source": "ISO27001",
+    "control_id": "ISO-7.5.3",
+    "domain": "Clause 7",
+    "raw_text": "7.5.3  Control of documented information\nDocumented information required by the information security management system and by this \ndocument shall be controlled to ensure:\na) it is available and suitable for use, where and when it is needed; and\nb) it is adequately protected (e.g. from loss of confidentiality, improper use, or loss of integrity).\nFor the control of documented information, the organization shall address the following activities, as \napplicable:\nc) distribution, access, retrieval and use;\nd) storage and preservation, including the preservation of legibility;\ne) control of changes (e.g. version control); and\nf) retention and disposition.\nDocumented information of external origin, determined by the organization to be necessary for \nthe planning and operation of the information security management system, shall be identified as \nappropriate, and controlled.\nNOTE Access can imply a decision regarding the permission to view the documented information only, or \nthe permission and authority to view and change the documented information, etc.",
+    "metadata": {
+      "clause_id": "7.5.3",
+      "clause_title": "Control of documented information",
+      "section_type": "main_clause",
+      "page_ref": 13,
+      "annex_domain": null
+    }
+  },
+  {
+    "doc_id": "iso27001_056",
+    "source": "ISO27001",
+    "control_id": "ISO-8.1",
+    "domain": "Clause 8",
+    "raw_text": "8.1  Operational planning and control\nThe organization shall plan, implement and control the processes needed to meet requirements, and to \nimplement the actions determined in Clause 6, by: \n— establishing criteria for the processes; \n— implementing control of the processes in accordance with the criteria. \nDocumented information shall be available to the extent necessary to have confidence that the \nprocesses have been carried out as planned. \n© ISO/IEC 2022 – All rights reserved   \n \n7\n--``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n\n[PAGE 14]\nISO/IEC 27001:2022(E)\nThe organization shall control planned changes and review the consequences of unintended changes, \ntaking action to mitigate any adverse effects, as necessary. \nThe organization shall ensure that externally provided processes, products or services that are relevant \nto the information security management system are controlled.",
+    "metadata": {
+      "clause_id": "8.1",
+      "clause_title": "Operational planning and",
+      "section_type": "main_clause",
+      "page_ref": 13
+    }
+  },
+  {
+    "doc_id": "iso27001_057",
+    "source": "ISO27001",
+    "control_id": "ISO-8.2",
+    "domain": "Clause 8",
+    "raw_text": "8.2  Information security risk assessment\nThe organization shall perform information security risk assessments at planned intervals or when \nsignificant changes are proposed or occur, taking account of the criteria established in 6.1.2 a).\nThe organization shall retain documented information of the results of the information security risk \nassessments.",
+    "metadata": {
+      "clause_id": "8.2",
+      "clause_title": "Information security risk assessment",
+      "section_type": "main_clause",
+      "page_ref": 14
+    }
+  },
+  {
+    "doc_id": "iso27001_058",
+    "source": "ISO27001",
+    "control_id": "ISO-8.3",
+    "domain": "Clause 8",
+    "raw_text": "8.3  Information security risk treatment\nThe organization shall implement the information security risk treatment plan.\nThe organization shall retain documented information of the results of the information security risk \ntreatment.",
+    "metadata": {
+      "clause_id": "8.3",
+      "clause_title": "Information security risk treatment",
+      "section_type": "main_clause",
+      "page_ref": 14
+    }
+  },
+  {
+    "doc_id": "iso27001_059",
+    "source": "ISO27001",
+    "control_id": "ISO-9.1",
+    "domain": "Clause 9",
+    "raw_text": "9.1  Monitoring, measurement, analysis and evaluation\nThe organization shall determine:\na) what needs to be monitored and measured, including information security processes and controls;\nb) the methods for monitoring, measurement, analysis and evaluation, as applicable, to ensure \nvalid results. The methods selected should produce comparable and reproducible results to be \nconsidered valid;\nc) when the monitoring and measuring shall be performed;\nd) who shall monitor and measure;\ne) when the results from monitoring and measurement shall be analysed and evaluated; \nf) who shall analyse and evaluate these results.\nDocumented information shall be available as evidence of the results.\nThe organization shall evaluate the information security performance and the effectiveness of the \ninformation security management system.",
+    "metadata": {
+      "clause_id": "9.1",
+      "clause_title": "Monitoring, measurement, analysis and evaluation",
+      "section_type": "main_clause",
+      "page_ref": 14
+    }
+  },
+  {
+    "doc_id": "iso27001_060",
+    "source": "ISO27001",
+    "control_id": "ISO-9.2.1",
+    "domain": "Clause 9",
+    "raw_text": "9.2.1 General\nThe organization shall conduct internal audits at planned intervals to provide information on whether \nthe information security management system:\na) conforms to\n1) the organization’s own requirements for its information security management system; \n   © ISO/IEC 2022 – All rights reserved\n  \n8\n--``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n\n[PAGE 15]\nISO/IEC 27001:2022(E)\n2) the requirements of this document;\nb) is effectively implemented and maintained.",
+    "metadata": {
+      "clause_id": "9.2.1",
+      "clause_title": "General",
+      "section_type": "main_clause",
+      "page_ref": 14
+    }
+  },
+  {
+    "doc_id": "iso27001_061",
+    "source": "ISO27001",
+    "control_id": "ISO-9.2.2",
+    "domain": "Clause 9",
+    "raw_text": "9.2.2 Internal audit programme\nThe organization shall plan, establish, implement and maintain an audit programme(s), including the \nfrequency, methods, responsibilities, planning requirements and reporting. \nWhen establishing the internal audit programme(s), the organization shall consider the importance of \nthe processes concerned and the results of previous audits. \nThe organization shall: \na) define the audit criteria and scope for each audit;\nb) select auditors and conduct audits that ensure objectivity and the impartiality of the audit process;\nc) ensure that the results of the audits are reported to relevant management; \nDocumented information shall be available as evidence of the implementation of the audit programme(s) \nand the audit results.",
+    "metadata": {
+      "clause_id": "9.2.2",
+      "clause_title": "Internal audit programme",
+      "section_type": "main_clause",
+      "page_ref": 15
+    }
+  },
+  {
+    "doc_id": "iso27001_062",
+    "source": "ISO27001",
+    "control_id": "ISO-9.3.1",
+    "domain": "Clause 9",
+    "raw_text": "9.3.1 General\nTop management shall review the organization's information security management system at planned \nintervals to ensure its continuing suitability, adequacy and effectiveness.",
+    "metadata": {
+      "clause_id": "9.3.1",
+      "clause_title": "General",
+      "section_type": "main_clause",
+      "page_ref": 15
+    }
+  },
+  {
+    "doc_id": "iso27001_063",
+    "source": "ISO27001",
+    "control_id": "ISO-9.3.2",
+    "domain": "Clause 9",
+    "raw_text": "9.3.2 Management review inputs\nThe management review shall include consideration of:\na) the status of actions from previous management reviews;\nb) changes in external and internal issues that are relevant to the information security management \nsystem;\nc) changes in needs and expectations of interested parties that are relevant to the information \nsecurity management system;\nd) feedback on the information security performance, including trends in:\n1) nonconformities and corrective actions;\n2) monitoring and measurement results;\n3) audit results; \n4) fulfilment of information security objectives;\ne) feedback from interested parties;\nf) results of risk assessment and status of risk treatment plan; \ng) opportunities for continual improvement.",
+    "metadata": {
+      "clause_id": "9.3.2",
+      "clause_title": "Management review inputs",
+      "section_type": "main_clause",
+      "page_ref": 15
+    }
+  },
+  {
+    "doc_id": "iso27001_064",
+    "source": "ISO27001",
+    "control_id": "ISO-9.3.3",
+    "domain": "Clause 9",
+    "raw_text": "9.3.3 Management review results\nThe results of the management review shall include decisions related to continual improvement \nopportunities and any needs for changes to the information security management system.\n© ISO/IEC 2022 – All rights reserved   \n \n9\n--``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n\n[PAGE 16]\nISO/IEC 27001:2022(E)\nDocumented information shall be available as evidence of the results of management reviews.",
+    "metadata": {
+      "clause_id": "9.3.3",
+      "clause_title": "Management review results",
+      "section_type": "main_clause",
+      "page_ref": 15
+    }
+  },
+  {
+    "doc_id": "iso27001_065",
+    "source": "ISO27001",
+    "control_id": "ISO-10.1",
+    "domain": "Clause 10",
+    "raw_text": "10.1  Continual improvement\nThe organization shall continually improve the suitability, adequacy and effectiveness of the information \nsecurity management system.",
+    "metadata": {
+      "clause_id": "10.1",
+      "clause_title": "Continual improvement",
+      "section_type": "main_clause",
+      "page_ref": 16
+    }
+  },
+  {
+    "doc_id": "iso27001_066",
+    "source": "ISO27001",
+    "control_id": "ISO-10.2",
+    "domain": "Clause 10",
+    "raw_text": "10.2  Nonconformity and corrective action\nWhen a nonconformity occurs, the organization shall:\na) react to the nonconformity, and as applicable:\n1) take action to control and correct it; \n2) deal with the consequences;\nb) evaluate the need for action to eliminate the causes of nonconformity, in order that it does not recur \nor occur elsewhere, by:\n1) reviewing the nonconformity;\n2) determining the causes of the nonconformity; and\n3) determining if similar nonconformities exist, or could potentially occur;\nc) implement any action needed;\nd) review the effectiveness of any corrective action taken; and\ne) make changes to the information security management system, if necessary.\nCorrective actions shall be appropriate to the effects of the nonconformities encountered.\nDocumented information shall be available as evidence of: \nf) the nature of the nonconformities and any subsequent actions taken, \ng) the results of any corrective action.\n   © ISO/IEC 2022 – All rights reserved\n  \n10\n--``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n\n[PAGE 17]\nISO/IEC 27001:2022(E)\nAnnex A \n(normative) \n \nInformation security controls reference\nThe information security controls listed in Table A.1 are directly derived from and aligned with those \nlisted in ISO/IEC 27002:2022[1], Clauses 5 to 8, and shall be used in context with 6.1.3.\nTable A.1 — Information security controls",
+    "metadata": {
+      "clause_id": "10.2",
+      "clause_title": "Nonconformity and corrective action",
+      "section_type": "main_clause",
+      "page_ref": 16
+    }
+  },
+  {
+    "doc_id": "iso27001_067",
+    "source": "ISO27001",
+    "control_id": "ISO-5.1",
+    "domain": "Organizational",
+    "raw_text": "5.1 Policies for information secu -\nrity\nControl\nInformation security policy and topic-specific policies shall be de -\nfined, approved by management, published, communicated to and \nacknowledged by relevant personnel and relevant interested parties, \nand reviewed at planned intervals and if significant changes occur.",
+    "metadata": {
+      "clause_id": "5.1",
+      "clause_title": "Policies for information secu rity",
+      "section_type": "annex_a_control",
+      "page_ref": 17,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_068",
+    "source": "ISO27001",
+    "control_id": "ISO-5.2",
+    "domain": "Organizational",
+    "raw_text": "5.2 Information security roles and \nresponsibilities\nControl\nInformation security roles and responsibilities shall be defined and \nallocated according to the organization needs.",
+    "metadata": {
+      "clause_id": "5.2",
+      "clause_title": "Information security roles and responsibilities",
+      "section_type": "annex_a_control",
+      "page_ref": 17,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_069",
+    "source": "ISO27001",
+    "control_id": "ISO-5.3",
+    "domain": "Organizational",
+    "raw_text": "5.3 Segregation of duties Control\nConflicting duties and conflicting areas of responsibility shall be seg -\nregated.",
+    "metadata": {
+      "clause_id": "5.3",
+      "clause_title": "Segregation of duties",
+      "section_type": "annex_a_control",
+      "page_ref": 17,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_070",
+    "source": "ISO27001",
+    "control_id": "ISO-5.4",
+    "domain": "Organizational",
+    "raw_text": "5.4 Management responsibilities Control\nManagement shall require all personnel to apply information security \nin accordance with the established information security policy, top -\nic-specific policies and procedures of the organization.",
+    "metadata": {
+      "clause_id": "5.4",
+      "clause_title": "Management responsibilities",
+      "section_type": "annex_a_control",
+      "page_ref": 17,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_071",
+    "source": "ISO27001",
+    "control_id": "ISO-5.5",
+    "domain": "Organizational",
+    "raw_text": "5.5 Contact with authorities Control\nThe organization shall establish and maintain contact with relevant \nauthorities.",
+    "metadata": {
+      "clause_id": "5.5",
+      "clause_title": "Contact with authorities",
+      "section_type": "annex_a_control",
+      "page_ref": 17,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_072",
+    "source": "ISO27001",
+    "control_id": "ISO-5.6",
+    "domain": "Organizational",
+    "raw_text": "5.6 Contact with special interest \ngroups\nControl\nThe organization shall establish and maintain contact with special \ninterest groups or other specialist security forums and professional \nassociations.",
+    "metadata": {
+      "clause_id": "5.6",
+      "clause_title": "Contact with special interest groups",
+      "section_type": "annex_a_control",
+      "page_ref": 17,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_073",
+    "source": "ISO27001",
+    "control_id": "ISO-5.7",
+    "domain": "Organizational",
+    "raw_text": "5.7 Threat intelligence Control\nInformation relating to information security threats shall be collected \nand analysed to produce threat intelligence.",
+    "metadata": {
+      "clause_id": "5.7",
+      "clause_title": "Threat intelligence",
+      "section_type": "annex_a_control",
+      "page_ref": 17,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_074",
+    "source": "ISO27001",
+    "control_id": "ISO-5.8",
+    "domain": "Organizational",
+    "raw_text": "5.8 Information security in project \nmanagement\nControl\nInformation security shall be integrated into project management.",
+    "metadata": {
+      "clause_id": "5.8",
+      "clause_title": "Information security in project management",
+      "section_type": "annex_a_control",
+      "page_ref": 17,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_075",
+    "source": "ISO27001",
+    "control_id": "ISO-5.9",
+    "domain": "Organizational",
+    "raw_text": "5.9 Inventory of information and \nother associated assets\nControl\nAn inventory of information and other associated assets, including \nowners, shall be developed and maintained.",
+    "metadata": {
+      "clause_id": "5.9",
+      "clause_title": "Inventory of information and other associated assets",
+      "section_type": "annex_a_control",
+      "page_ref": 17,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_076",
+    "source": "ISO27001",
+    "control_id": "ISO-5.10",
+    "domain": "Organizational",
+    "raw_text": "5.10 Acceptable use of information \nand other associated assets\nControl\nRules for the acceptable use and procedures for handling information and \nother associated assets shall be identified, documented and implemented.",
+    "metadata": {
+      "clause_id": "5.10",
+      "clause_title": "Acceptable use of information and other associated assets",
+      "section_type": "annex_a_control",
+      "page_ref": 17,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_077",
+    "source": "ISO27001",
+    "control_id": "ISO-5.11",
+    "domain": "Organizational",
+    "raw_text": "5.11 Return of assets Control\nPersonnel and other interested parties as appropriate shall return all \nthe organization’s assets in their possession upon change or termination \nof their employment, contract or agreement.\n© ISO/IEC 2022 – All rights reserved   \n \n11\n--``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n\n[PAGE 18]\nISO/IEC 27001:2022(E)",
+    "metadata": {
+      "clause_id": "5.11",
+      "clause_title": "Return of assets",
+      "section_type": "annex_a_control",
+      "page_ref": 17,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_078",
+    "source": "ISO27001",
+    "control_id": "ISO-5.12",
+    "domain": "Organizational",
+    "raw_text": "5.12 Classification of information Control\nInformation shall be classified according to the information security \nneeds of the organization based on confidentiality, integrity, availability \nand relevant interested party requirements.",
+    "metadata": {
+      "clause_id": "5.12",
+      "clause_title": "Classification of information",
+      "section_type": "annex_a_control",
+      "page_ref": 18,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_079",
+    "source": "ISO27001",
+    "control_id": "ISO-5.13",
+    "domain": "Organizational",
+    "raw_text": "5.13 Labelling of information Control\nAn appropriate set of procedures for information labelling shall be \ndeveloped and implemented in accordance with the information clas -\nsification scheme adopted by the organization.",
+    "metadata": {
+      "clause_id": "5.13",
+      "clause_title": "Labelling of information",
+      "section_type": "annex_a_control",
+      "page_ref": 18,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_080",
+    "source": "ISO27001",
+    "control_id": "ISO-5.14",
+    "domain": "Organizational",
+    "raw_text": "5.14 Information transfer Control\nInformation transfer rules, procedures, or agreements shall be in place \nfor all types of transfer facilities within the organization and between \nthe organization and other parties.",
+    "metadata": {
+      "clause_id": "5.14",
+      "clause_title": "Information transfer",
+      "section_type": "annex_a_control",
+      "page_ref": 18,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_081",
+    "source": "ISO27001",
+    "control_id": "ISO-5.15",
+    "domain": "Organizational",
+    "raw_text": "5.15 Access control Control\nRules to control physical and logical access to information and other \nassociated assets shall be established and implemented based on busi -\nness and information security requirements.",
+    "metadata": {
+      "clause_id": "5.15",
+      "clause_title": "Access control",
+      "section_type": "annex_a_control",
+      "page_ref": 18,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_082",
+    "source": "ISO27001",
+    "control_id": "ISO-5.16",
+    "domain": "Organizational",
+    "raw_text": "5.16 Identity management Control\nThe full life cycle of identities shall be managed.",
+    "metadata": {
+      "clause_id": "5.16",
+      "clause_title": "Identity management",
+      "section_type": "annex_a_control",
+      "page_ref": 18,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_083",
+    "source": "ISO27001",
+    "control_id": "ISO-5.17",
+    "domain": "Organizational",
+    "raw_text": "5.17 Authentication information Control\nAllocation and management of authentication information shall be \ncontrolled by a management process, including advising personnel on \nappropriate handling of authentication information.",
+    "metadata": {
+      "clause_id": "5.17",
+      "clause_title": "Authentication information",
+      "section_type": "annex_a_control",
+      "page_ref": 18,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_084",
+    "source": "ISO27001",
+    "control_id": "ISO-5.18",
+    "domain": "Organizational",
+    "raw_text": "5.18 Access rights Control\nAccess rights to information and other associated assets shall be \nprovisioned, reviewed, modified and removed in accordance with the \norganization’s topic-specific policy on and rules for access control.",
+    "metadata": {
+      "clause_id": "5.18",
+      "clause_title": "Access rights",
+      "section_type": "annex_a_control",
+      "page_ref": 18,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_085",
+    "source": "ISO27001",
+    "control_id": "ISO-5.19",
+    "domain": "Organizational",
+    "raw_text": "5.19 Information security in supplier \nrelationships\nControl\nProcesses and procedures shall be defined and implemented to manage \nthe information security risks associated with the use of supplier’s \nproducts or services.",
+    "metadata": {
+      "clause_id": "5.19",
+      "clause_title": "Information security in supplier relationships",
+      "section_type": "annex_a_control",
+      "page_ref": 18,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_086",
+    "source": "ISO27001",
+    "control_id": "ISO-5.20",
+    "domain": "Organizational",
+    "raw_text": "5.20 Addressing information security \nwithin supplier agreements\nControl\nRelevant information security requirements shall be established and \nagreed with each supplier based on the type of supplier relationship.",
+    "metadata": {
+      "clause_id": "5.20",
+      "clause_title": "Addressing information security within supplier agreements",
+      "section_type": "annex_a_control",
+      "page_ref": 18,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_087",
+    "source": "ISO27001",
+    "control_id": "ISO-5.21",
+    "domain": "Organizational",
+    "raw_text": "5.21 Managing information security \nin the information and commu -\nnication technology (ICT) supply \nchain\nControl\nProcesses and procedures shall be defined and implemented to manage \nthe information security risks associated with the ICT products and \nservices supply chain.",
+    "metadata": {
+      "clause_id": "5.21",
+      "clause_title": "Managing information security in the information and commu -",
+      "section_type": "annex_a_control",
+      "page_ref": 18,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_088",
+    "source": "ISO27001",
+    "control_id": "ISO-5.22",
+    "domain": "Organizational",
+    "raw_text": "5.22 Monitoring, review and change \nmanagement of supplier services\nControl\nThe organization shall regularly monitor, review, evaluate and manage \nchange in supplier information security practices and service delivery.",
+    "metadata": {
+      "clause_id": "5.22",
+      "clause_title": "Monitoring, review and change management of supplier services",
+      "section_type": "annex_a_control",
+      "page_ref": 18,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_089",
+    "source": "ISO27001",
+    "control_id": "ISO-5.23",
+    "domain": "Organizational",
+    "raw_text": "5.23 Information security for use of \ncloud services\nControl\nProcesses for acquisition, use, management and exit from cloud services \nshall be established in accordance with the organization’s information \nsecurity requirements.",
+    "metadata": {
+      "clause_id": "5.23",
+      "clause_title": "Information security for use of cloud services",
+      "section_type": "annex_a_control",
+      "page_ref": 18,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_090",
+    "source": "ISO27001",
+    "control_id": "ISO-5.24",
+    "domain": "Organizational",
+    "raw_text": "5.24 Information security incident \nmanagement planning and prepa-\nration\nControl\nThe organization shall plan and prepare for managing information secu-\nrity incidents by defining, establishing and communicating information \nsecurity incident management processes, roles and responsibilities.\nTable A.1 (continued)Table A.1 (continued)\n   © ISO/IEC 2022 – All rights reserved\n  \n12\n--``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n\n[PAGE 19]\nISO/IEC 27001:2022(E)",
+    "metadata": {
+      "clause_id": "5.24",
+      "clause_title": "Information security incident management planning and preparation",
+      "section_type": "annex_a_control",
+      "page_ref": 18,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_091",
+    "source": "ISO27001",
+    "control_id": "ISO-5.25",
+    "domain": "Organizational",
+    "raw_text": "5.25 Assessment and decision on in -\nformation security events\nControl\nThe organization shall assess information security events and decide if \nthey are to be categorized as information security incidents.",
+    "metadata": {
+      "clause_id": "5.25",
+      "clause_title": "Assessment and decision on in formation security events",
+      "section_type": "annex_a_control",
+      "page_ref": 19,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_092",
+    "source": "ISO27001",
+    "control_id": "ISO-5.26",
+    "domain": "Organizational",
+    "raw_text": "5.26 Response to information security \nincidents\nControl\nInformation security incidents shall be responded to in accordance with \nthe documented procedures.",
+    "metadata": {
+      "clause_id": "5.26",
+      "clause_title": "Response to information security incidents",
+      "section_type": "annex_a_control",
+      "page_ref": 19,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_093",
+    "source": "ISO27001",
+    "control_id": "ISO-5.27",
+    "domain": "Organizational",
+    "raw_text": "5.27 Learning from information se -\ncurity incidents\nControl\nKnowledge gained from information security incidents shall be used to \nstrengthen and improve the information security controls.",
+    "metadata": {
+      "clause_id": "5.27",
+      "clause_title": "Learning from information se curity incidents",
+      "section_type": "annex_a_control",
+      "page_ref": 19,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_094",
+    "source": "ISO27001",
+    "control_id": "ISO-5.28",
+    "domain": "Organizational",
+    "raw_text": "5.28 Collection of evidence Control\nThe organization shall establish and implement procedures for the iden-\ntification, collection, acquisition and preservation of evidence related \nto information security events.",
+    "metadata": {
+      "clause_id": "5.28",
+      "clause_title": "Collection of evidence",
+      "section_type": "annex_a_control",
+      "page_ref": 19,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_095",
+    "source": "ISO27001",
+    "control_id": "ISO-5.29",
+    "domain": "Organizational",
+    "raw_text": "5.29 Information security during \ndisruption\nControl\nThe organization shall plan how to maintain information security at an \nappropriate level during disruption.",
+    "metadata": {
+      "clause_id": "5.29",
+      "clause_title": "Information security during disruption",
+      "section_type": "annex_a_control",
+      "page_ref": 19,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_096",
+    "source": "ISO27001",
+    "control_id": "ISO-5.30",
+    "domain": "Organizational",
+    "raw_text": "5.30 ICT readiness for business con -\ntinuity\nControl\nICT readiness shall be planned, implemented, maintained and tested \nbased on business continuity objectives and ICT continuity requirements.",
+    "metadata": {
+      "clause_id": "5.30",
+      "clause_title": "ICT readiness for business con tinuity",
+      "section_type": "annex_a_control",
+      "page_ref": 19,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_097",
+    "source": "ISO27001",
+    "control_id": "ISO-5.31",
+    "domain": "Organizational",
+    "raw_text": "5.31 Legal, statutory, regulatory and \ncontractual requirements\nControl\nLegal, statutory, regulatory and contractual requirements relevant to \ninformation security and the organization’s approach to meet these \nrequirements shall be identified, documented and kept up to date.",
+    "metadata": {
+      "clause_id": "5.31",
+      "clause_title": "Legal, statutory, regulatory and contractual requirements",
+      "section_type": "annex_a_control",
+      "page_ref": 19,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_098",
+    "source": "ISO27001",
+    "control_id": "ISO-5.32",
+    "domain": "Organizational",
+    "raw_text": "5.32 Intellectual property rights Control\nThe organization shall implement appropriate procedures to protect \nintellectual property rights.",
+    "metadata": {
+      "clause_id": "5.32",
+      "clause_title": "Intellectual property rights",
+      "section_type": "annex_a_control",
+      "page_ref": 19,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_099",
+    "source": "ISO27001",
+    "control_id": "ISO-5.33",
+    "domain": "Organizational",
+    "raw_text": "5.33 Protection of records Control\nRecords shall be protected from loss, destruction, falsification, unau -\nthorized access and unauthorized release.",
+    "metadata": {
+      "clause_id": "5.33",
+      "clause_title": "Protection of records",
+      "section_type": "annex_a_control",
+      "page_ref": 19,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_100",
+    "source": "ISO27001",
+    "control_id": "ISO-5.34",
+    "domain": "Organizational",
+    "raw_text": "5.34 Privacy and protection of person-\nal identifiable information (PII)\nControl\nThe organization shall identify and meet the requirements regarding \nthe preservation of privacy and protection of PII according to applicable \nlaws and regulations and contractual requirements.",
+    "metadata": {
+      "clause_id": "5.34",
+      "clause_title": "Privacy and protection of personal identifiable information (PII)",
+      "section_type": "annex_a_control",
+      "page_ref": 19,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_101",
+    "source": "ISO27001",
+    "control_id": "ISO-5.35",
+    "domain": "Organizational",
+    "raw_text": "5.35 Independent review of informa-\ntion security\nControl\nThe organization’s approach to managing information security and \nits implementation including people, processes and technologies shall \nbe reviewed independently at planned intervals, or when significant \nchanges occur.",
+    "metadata": {
+      "clause_id": "5.35",
+      "clause_title": "Independent review of information security",
+      "section_type": "annex_a_control",
+      "page_ref": 19,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_102",
+    "source": "ISO27001",
+    "control_id": "ISO-5.36",
+    "domain": "Organizational",
+    "raw_text": "5.36 Compliance with policies, rules \nand standards for information \nsecurity\nControl\nCompliance with the organization’s information security policy, top -\nic-specific policies, rules and standards shall be regularly reviewed.",
+    "metadata": {
+      "clause_id": "5.36",
+      "clause_title": "Compliance with policies, rules and standards for information security",
+      "section_type": "annex_a_control",
+      "page_ref": 19,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_103",
+    "source": "ISO27001",
+    "control_id": "ISO-5.37",
+    "domain": "Organizational",
+    "raw_text": "5.37 Documented operating proce -\ndures\nControl\nOperating procedures for information processing facilities shall be \ndocumented and made available to personnel who need them.\nTable A.1 (continued)Table A.1 (continued)\n© ISO/IEC 2022 – All rights reserved   \n \n13\n--``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n\n[PAGE 20]\nISO/IEC 27001:2022(E)",
+    "metadata": {
+      "clause_id": "5.37",
+      "clause_title": "Documented operating proce dures",
+      "section_type": "annex_a_control",
+      "page_ref": 19,
+      "annex_domain": "Organizational"
+    }
+  },
+  {
+    "doc_id": "iso27001_104",
+    "source": "ISO27001",
+    "control_id": "ISO-6.1",
+    "domain": "People",
+    "raw_text": "6.1 Screening Control\nBackground verification checks on all candidates to become personnel \nshall be carried out prior to joining the organization and on an ongoing \nbasis taking into consideration applicable laws, regulations and ethics \nand be proportional to the business requirements, the classification of \nthe information to be accessed and the perceived risks.",
+    "metadata": {
+      "clause_id": "6.1",
+      "clause_title": "Screening",
+      "section_type": "annex_a_control",
+      "page_ref": 20,
+      "annex_domain": "People"
+    }
+  },
+  {
+    "doc_id": "iso27001_105",
+    "source": "ISO27001",
+    "control_id": "ISO-6.2",
+    "domain": "People",
+    "raw_text": "6.2 Terms and conditions of em -\nployment\nControl\nThe employment contractual agreements shall state the personnel’s and \nthe organization’s responsibilities for information security.",
+    "metadata": {
+      "clause_id": "6.2",
+      "clause_title": "Terms and conditions of em ployment",
+      "section_type": "annex_a_control",
+      "page_ref": 20,
+      "annex_domain": "People"
+    }
+  },
+  {
+    "doc_id": "iso27001_106",
+    "source": "ISO27001",
+    "control_id": "ISO-6.3",
+    "domain": "People",
+    "raw_text": "6.3 Information security awareness, \neducation and training\nControl\nPersonnel of the organization and relevant interested parties shall receive \nappropriate information security awareness, education and training \nand regular updates of the organization's information security policy, \ntopic-specific policies and procedures, as relevant for their job function.",
+    "metadata": {
+      "clause_id": "6.3",
+      "clause_title": "Information security awareness, education and training",
+      "section_type": "annex_a_control",
+      "page_ref": 20,
+      "annex_domain": "People"
+    }
+  },
+  {
+    "doc_id": "iso27001_107",
+    "source": "ISO27001",
+    "control_id": "ISO-6.4",
+    "domain": "People",
+    "raw_text": "6.4 Disciplinary process Control\nA disciplinary process shall be formalized and communicated to take \nactions against personnel and other relevant interested parties who \nhave committed an information security policy violation.",
+    "metadata": {
+      "clause_id": "6.4",
+      "clause_title": "Disciplinary process",
+      "section_type": "annex_a_control",
+      "page_ref": 20,
+      "annex_domain": "People"
+    }
+  },
+  {
+    "doc_id": "iso27001_108",
+    "source": "ISO27001",
+    "control_id": "ISO-6.5",
+    "domain": "People",
+    "raw_text": "6.5 Responsibilities after termination \nor change of employment\nControl\nInformation security responsibilities and duties that remain valid after \ntermination or change of employment shall be defined, enforced and \ncommunicated to relevant personnel and other interested parties.",
+    "metadata": {
+      "clause_id": "6.5",
+      "clause_title": "Responsibilities after termination or change of employment",
+      "section_type": "annex_a_control",
+      "page_ref": 20,
+      "annex_domain": "People"
+    }
+  },
+  {
+    "doc_id": "iso27001_109",
+    "source": "ISO27001",
+    "control_id": "ISO-6.6",
+    "domain": "People",
+    "raw_text": "6.6 Confidentiality or non-disclosure \nagreements\nControl\nConfidentiality or non-disclosure agreements reflecting the organ -\nization’s needs for the protection of information shall be identified, \ndocumented, regularly reviewed and signed by personnel and other \nrelevant interested parties.",
+    "metadata": {
+      "clause_id": "6.6",
+      "clause_title": "Confidentiality or non-disclosure agreements",
+      "section_type": "annex_a_control",
+      "page_ref": 20,
+      "annex_domain": "People"
+    }
+  },
+  {
+    "doc_id": "iso27001_110",
+    "source": "ISO27001",
+    "control_id": "ISO-6.7",
+    "domain": "People",
+    "raw_text": "6.7 Remote working Control\nSecurity measures shall be implemented when personnel are working \nremotely to protect information accessed, processed or stored outside \nthe organization’s premises.",
+    "metadata": {
+      "clause_id": "6.7",
+      "clause_title": "Remote working",
+      "section_type": "annex_a_control",
+      "page_ref": 20,
+      "annex_domain": "People"
+    }
+  },
+  {
+    "doc_id": "iso27001_111",
+    "source": "ISO27001",
+    "control_id": "ISO-6.8",
+    "domain": "People",
+    "raw_text": "6.8 Information security event re -\nporting\nControl\nThe organization shall provide a mechanism for personnel to report \nobserved or suspected information security events through appropriate \nchannels in a timely manner.",
+    "metadata": {
+      "clause_id": "6.8",
+      "clause_title": "Information security event re porting",
+      "section_type": "annex_a_control",
+      "page_ref": 20,
+      "annex_domain": "People"
+    }
+  },
+  {
+    "doc_id": "iso27001_112",
+    "source": "ISO27001",
+    "control_id": "ISO-7.1",
+    "domain": "Physical",
+    "raw_text": "7.1 Physical security perimeters Control\nSecurity perimeters shall be defined and used to protect areas that \ncontain information and other associated assets.",
+    "metadata": {
+      "clause_id": "7.1",
+      "clause_title": "Physical security perimeters",
+      "section_type": "annex_a_control",
+      "page_ref": 20,
+      "annex_domain": "Physical"
+    }
+  },
+  {
+    "doc_id": "iso27001_113",
+    "source": "ISO27001",
+    "control_id": "ISO-7.2",
+    "domain": "Physical",
+    "raw_text": "7.2 Physical entry Control\nSecure areas shall be protected by appropriate entry controls and \naccess points.\n7. 3 Securing offices, rooms and fa -\ncilities\nControl\nPhysical security for offices, rooms and facilities shall be designed and \nimplemented.",
+    "metadata": {
+      "clause_id": "7.2",
+      "clause_title": "Physical entry",
+      "section_type": "annex_a_control",
+      "page_ref": 20,
+      "annex_domain": "Physical"
+    }
+  },
+  {
+    "doc_id": "iso27001_114",
+    "source": "ISO27001",
+    "control_id": "ISO-7.4",
+    "domain": "Physical",
+    "raw_text": "7.4 Physical security monitoring Control\nPremises shall be continuously monitored for unauthorized physical \naccess.\nTable A.1 (continued)Table A.1 (continued)\n   © ISO/IEC 2022 – All rights reserved\n  \n14\n--``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n\n[PAGE 21]\nISO/IEC 27001:2022(E)\n7. 5 Protecting against physical and \nenvironmental threats\nControl\nProtection against physical and environmental threats, such as natural \ndisasters and other intentional or unintentional physical threats to \ninfrastructure shall be designed and implemented.",
+    "metadata": {
+      "clause_id": "7.4",
+      "clause_title": "Physical security monitoring",
+      "section_type": "annex_a_control",
+      "page_ref": 20,
+      "annex_domain": "Physical"
+    }
+  },
+  {
+    "doc_id": "iso27001_115",
+    "source": "ISO27001",
+    "control_id": "ISO-7.6",
+    "domain": "Physical",
+    "raw_text": "7.6 Working in secure areas Control\nSecurity measures for working in secure areas shall be designed and \nimplemented.",
+    "metadata": {
+      "clause_id": "7.6",
+      "clause_title": "Working in secure areas",
+      "section_type": "annex_a_control",
+      "page_ref": 21,
+      "annex_domain": "Physical"
+    }
+  },
+  {
+    "doc_id": "iso27001_116",
+    "source": "ISO27001",
+    "control_id": "ISO-7.7",
+    "domain": "Physical",
+    "raw_text": "7.7 Clear desk and clear screen Control\nClear desk rules for papers and removable storage media and clear \nscreen rules for information processing facilities shall be defined and \nappropriately enforced.",
+    "metadata": {
+      "clause_id": "7.7",
+      "clause_title": "Clear desk and clear screen",
+      "section_type": "annex_a_control",
+      "page_ref": 21,
+      "annex_domain": "Physical"
+    }
+  },
+  {
+    "doc_id": "iso27001_117",
+    "source": "ISO27001",
+    "control_id": "ISO-7.8",
+    "domain": "Physical",
+    "raw_text": "7.8 Equipment siting and protection Control\nEquipment shall be sited securely and protected.",
+    "metadata": {
+      "clause_id": "7.8",
+      "clause_title": "Equipment siting and protection",
+      "section_type": "annex_a_control",
+      "page_ref": 21,
+      "annex_domain": "Physical"
+    }
+  },
+  {
+    "doc_id": "iso27001_118",
+    "source": "ISO27001",
+    "control_id": "ISO-7.9",
+    "domain": "Physical",
+    "raw_text": "7.9 Security of assets off-premises Control\nOff-site assets shall be protected.",
+    "metadata": {
+      "clause_id": "7.9",
+      "clause_title": "Security of assets off-premises",
+      "section_type": "annex_a_control",
+      "page_ref": 21,
+      "annex_domain": "Physical"
+    }
+  },
+  {
+    "doc_id": "iso27001_119",
+    "source": "ISO27001",
+    "control_id": "ISO-7.10",
+    "domain": "Physical",
+    "raw_text": "7.10 Storage media Control\nStorage media shall be managed through their life cycle of acquisition, \nuse, transportation and disposal in accordance with the organization’s \nclassification scheme and handling requirements.",
+    "metadata": {
+      "clause_id": "7.10",
+      "clause_title": "Storage media",
+      "section_type": "annex_a_control",
+      "page_ref": 21,
+      "annex_domain": "Physical"
+    }
+  },
+  {
+    "doc_id": "iso27001_120",
+    "source": "ISO27001",
+    "control_id": "ISO-7.11",
+    "domain": "Physical",
+    "raw_text": "7.11 Supporting utilities Control\nInformation processing facilities shall be protected from power failures \nand other disruptions caused by failures in supporting utilities.",
+    "metadata": {
+      "clause_id": "7.11",
+      "clause_title": "Supporting utilities",
+      "section_type": "annex_a_control",
+      "page_ref": 21,
+      "annex_domain": "Physical"
+    }
+  },
+  {
+    "doc_id": "iso27001_121",
+    "source": "ISO27001",
+    "control_id": "ISO-7.12",
+    "domain": "Physical",
+    "raw_text": "7.12 Cabling security Control\nCables carrying power, data or supporting information services shall \nbe protected from interception, interference or damage.",
+    "metadata": {
+      "clause_id": "7.12",
+      "clause_title": "Cabling security",
+      "section_type": "annex_a_control",
+      "page_ref": 21,
+      "annex_domain": "Physical"
+    }
+  },
+  {
+    "doc_id": "iso27001_122",
+    "source": "ISO27001",
+    "control_id": "ISO-7.13",
+    "domain": "Physical",
+    "raw_text": "7.13 Equipment maintenance Control\nEquipment shall be maintained correctly to ensure availability, integrity \nand confidentiality of information.",
+    "metadata": {
+      "clause_id": "7.13",
+      "clause_title": "Equipment maintenance",
+      "section_type": "annex_a_control",
+      "page_ref": 21,
+      "annex_domain": "Physical"
+    }
+  },
+  {
+    "doc_id": "iso27001_123",
+    "source": "ISO27001",
+    "control_id": "ISO-7.14",
+    "domain": "Physical",
+    "raw_text": "7.14 Secure disposal or re-use of \nequipment\nControl\nItems of equipment containing storage media shall be verified to en -\nsure that any sensitive data and licensed software has been removed \nor securely overwritten prior to disposal or re-use.",
+    "metadata": {
+      "clause_id": "7.14",
+      "clause_title": "Secure disposal or re-use of equipment",
+      "section_type": "annex_a_control",
+      "page_ref": 21,
+      "annex_domain": "Physical"
+    }
+  },
+  {
+    "doc_id": "iso27001_124",
+    "source": "ISO27001",
+    "control_id": "ISO-8.1",
+    "domain": "Technological",
+    "raw_text": "8.1 User end point devices Control\nInformation stored on, processed by or accessible via user end point \ndevices shall be protected.",
+    "metadata": {
+      "clause_id": "8.1",
+      "clause_title": "User end point devices",
+      "section_type": "annex_a_control",
+      "page_ref": 21,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_125",
+    "source": "ISO27001",
+    "control_id": "ISO-8.2",
+    "domain": "Technological",
+    "raw_text": "8.2 Privileged access rights Control\nThe allocation and use of privileged access rights shall be restricted \nand managed.",
+    "metadata": {
+      "clause_id": "8.2",
+      "clause_title": "Privileged access rights",
+      "section_type": "annex_a_control",
+      "page_ref": 21,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_126",
+    "source": "ISO27001",
+    "control_id": "ISO-8.3",
+    "domain": "Technological",
+    "raw_text": "8.3 Information access restriction Control\nAccess to information and other associated assets shall be restricted in \naccordance with the established topic-specific policy on access control.",
+    "metadata": {
+      "clause_id": "8.3",
+      "clause_title": "Information access restriction",
+      "section_type": "annex_a_control",
+      "page_ref": 21,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_127",
+    "source": "ISO27001",
+    "control_id": "ISO-8.4",
+    "domain": "Technological",
+    "raw_text": "8.4 Access to source code Control\nRead and write access to source code, development tools and software \nlibraries shall be appropriately managed.\nTable A.1 (continued)Table A.1 (continued)\n© ISO/IEC 2022 – All rights reserved   \n \n15\n--``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n\n[PAGE 22]\nISO/IEC 27001:2022(E)",
+    "metadata": {
+      "clause_id": "8.4",
+      "clause_title": "Access to source code",
+      "section_type": "annex_a_control",
+      "page_ref": 21,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_128",
+    "source": "ISO27001",
+    "control_id": "ISO-8.5",
+    "domain": "Technological",
+    "raw_text": "8.5 Secure authentication Control\nSecure authentication technologies and procedures shall be implemented \nbased on information access restrictions and the topic-specific policy \non access control.",
+    "metadata": {
+      "clause_id": "8.5",
+      "clause_title": "Secure authentication",
+      "section_type": "annex_a_control",
+      "page_ref": 22,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_129",
+    "source": "ISO27001",
+    "control_id": "ISO-8.6",
+    "domain": "Technological",
+    "raw_text": "8.6 Capacity management Control\nThe use of resources shall be monitored and adjusted in line with current \nand expected capacity requirements.",
+    "metadata": {
+      "clause_id": "8.6",
+      "clause_title": "Capacity management",
+      "section_type": "annex_a_control",
+      "page_ref": 22,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_130",
+    "source": "ISO27001",
+    "control_id": "ISO-8.7",
+    "domain": "Technological",
+    "raw_text": "8.7 Protection against malware Control\nProtection against malware shall be implemented and supported by \nappropriate user awareness.",
+    "metadata": {
+      "clause_id": "8.7",
+      "clause_title": "Protection against malware",
+      "section_type": "annex_a_control",
+      "page_ref": 22,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_131",
+    "source": "ISO27001",
+    "control_id": "ISO-8.8",
+    "domain": "Technological",
+    "raw_text": "8.8 Management of technical vul -\nnerabilities\nControl\nInformation about technical vulnerabilities of information systems in \nuse shall be obtained, the organization’s exposure to such vulnerabilities \nshall be evaluated and appropriate measures shall be taken.",
+    "metadata": {
+      "clause_id": "8.8",
+      "clause_title": "Management of technical vul nerabilities",
+      "section_type": "annex_a_control",
+      "page_ref": 22,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_132",
+    "source": "ISO27001",
+    "control_id": "ISO-8.9",
+    "domain": "Technological",
+    "raw_text": "8.9 Configuration management Control\nConfigurations, including security configurations, of hardware, software, \nservices and networks shall be established, documented, implemented, \nmonitored and reviewed.",
+    "metadata": {
+      "clause_id": "8.9",
+      "clause_title": "Configuration management",
+      "section_type": "annex_a_control",
+      "page_ref": 22,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_133",
+    "source": "ISO27001",
+    "control_id": "ISO-8.10",
+    "domain": "Technological",
+    "raw_text": "8.10 Information deletion Control\nInformation stored in information systems, devices or in any other \nstorage media shall be deleted when no longer required.",
+    "metadata": {
+      "clause_id": "8.10",
+      "clause_title": "Information deletion",
+      "section_type": "annex_a_control",
+      "page_ref": 22,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_134",
+    "source": "ISO27001",
+    "control_id": "ISO-8.11",
+    "domain": "Technological",
+    "raw_text": "8.11 Data masking Control\nData masking shall be used in accordance with the organization’s \ntopic-specific policy on access control and other related topic-specific \npolicies, and business requirements, taking applicable legislation into \nconsideration.",
+    "metadata": {
+      "clause_id": "8.11",
+      "clause_title": "Data masking",
+      "section_type": "annex_a_control",
+      "page_ref": 22,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_135",
+    "source": "ISO27001",
+    "control_id": "ISO-8.12",
+    "domain": "Technological",
+    "raw_text": "8.12 Data leakage prevention Control\nData leakage prevention measures shall be applied to systems, net -\nworks and any other devices that process, store or transmit sensitive \ninformation.",
+    "metadata": {
+      "clause_id": "8.12",
+      "clause_title": "Data leakage prevention",
+      "section_type": "annex_a_control",
+      "page_ref": 22,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_136",
+    "source": "ISO27001",
+    "control_id": "ISO-8.13",
+    "domain": "Technological",
+    "raw_text": "8.13 Information backup Control\nBackup copies of information, software and systems shall be maintained \nand regularly tested in accordance with the agreed topic-specific policy \non backup.",
+    "metadata": {
+      "clause_id": "8.13",
+      "clause_title": "Information backup",
+      "section_type": "annex_a_control",
+      "page_ref": 22,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_137",
+    "source": "ISO27001",
+    "control_id": "ISO-8.14",
+    "domain": "Technological",
+    "raw_text": "8.14 Redundancy of information pro-\ncessing facilities\nControl\nInformation processing facilities shall be implemented with redundancy \nsufficient to meet availability requirements.",
+    "metadata": {
+      "clause_id": "8.14",
+      "clause_title": "Redundancy of information processing facilities",
+      "section_type": "annex_a_control",
+      "page_ref": 22,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_138",
+    "source": "ISO27001",
+    "control_id": "ISO-8.15",
+    "domain": "Technological",
+    "raw_text": "8.15 Logging Control\nLogs that record activities, exceptions, faults and other relevant events \nshall be produced, stored, protected and analysed.",
+    "metadata": {
+      "clause_id": "8.15",
+      "clause_title": "Logging",
+      "section_type": "annex_a_control",
+      "page_ref": 22,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_139",
+    "source": "ISO27001",
+    "control_id": "ISO-8.16",
+    "domain": "Technological",
+    "raw_text": "8.16 Monitoring activities Control\nNetworks, systems and applications shall be monitored for anomalous \nbehaviour and appropriate actions taken to evaluate potential infor -\nmation security incidents.",
+    "metadata": {
+      "clause_id": "8.16",
+      "clause_title": "Monitoring activities",
+      "section_type": "annex_a_control",
+      "page_ref": 22,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_140",
+    "source": "ISO27001",
+    "control_id": "ISO-8.17",
+    "domain": "Technological",
+    "raw_text": "8.17 Clock synchronization Control\nThe clocks of information processing systems used by the organization \nshall be synchronized to approved time sources.\nTable A.1 (continued)Table A.1 (continued)\n   © ISO/IEC 2022 – All rights reserved\n  \n16\n--``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n\n[PAGE 23]\nISO/IEC 27001:2022(E)",
+    "metadata": {
+      "clause_id": "8.17",
+      "clause_title": "Clock synchronization",
+      "section_type": "annex_a_control",
+      "page_ref": 22,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_141",
+    "source": "ISO27001",
+    "control_id": "ISO-8.18",
+    "domain": "Technological",
+    "raw_text": "8.18 Use of privileged utility programsControl\nThe use of utility programs that can be capable of overriding system \nand application controls shall be restricted and tightly controlled.",
+    "metadata": {
+      "clause_id": "8.18",
+      "clause_title": "Use of privileged utility programsControl",
+      "section_type": "annex_a_control",
+      "page_ref": 23,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_142",
+    "source": "ISO27001",
+    "control_id": "ISO-8.19",
+    "domain": "Technological",
+    "raw_text": "8.19 Installation of software on op -\nerational systems\nControl\nProcedures and measures shall be implemented to securely manage \nsoftware installation on operational systems.",
+    "metadata": {
+      "clause_id": "8.19",
+      "clause_title": "Installation of software on op erational systems",
+      "section_type": "annex_a_control",
+      "page_ref": 23,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_143",
+    "source": "ISO27001",
+    "control_id": "ISO-8.20",
+    "domain": "Technological",
+    "raw_text": "8.20 Networks security Control\nNetworks and network devices shall be secured, managed and controlled \nto protect information in systems and applications.",
+    "metadata": {
+      "clause_id": "8.20",
+      "clause_title": "Networks security",
+      "section_type": "annex_a_control",
+      "page_ref": 23,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_144",
+    "source": "ISO27001",
+    "control_id": "ISO-8.21",
+    "domain": "Technological",
+    "raw_text": "8.21 Security of network services Control\nSecurity mechanisms, service levels and service requirements of network \nservices shall be identified, implemented and monitored.",
+    "metadata": {
+      "clause_id": "8.21",
+      "clause_title": "Security of network services",
+      "section_type": "annex_a_control",
+      "page_ref": 23,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_145",
+    "source": "ISO27001",
+    "control_id": "ISO-8.22",
+    "domain": "Technological",
+    "raw_text": "8.22 Segregation of networks Control\nGroups of information services, users and information systems shall \nbe segregated in the organization’s networks.",
+    "metadata": {
+      "clause_id": "8.22",
+      "clause_title": "Segregation of networks",
+      "section_type": "annex_a_control",
+      "page_ref": 23,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_146",
+    "source": "ISO27001",
+    "control_id": "ISO-8.23",
+    "domain": "Technological",
+    "raw_text": "8.23 Web filtering Control\nAccess to external websites shall be managed to reduce exposure to \nmalicious content.",
+    "metadata": {
+      "clause_id": "8.23",
+      "clause_title": "Web filtering",
+      "section_type": "annex_a_control",
+      "page_ref": 23,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_147",
+    "source": "ISO27001",
+    "control_id": "ISO-8.24",
+    "domain": "Technological",
+    "raw_text": "8.24 Use of cryptography Control\nRules for the effective use of cryptography, including cryptographic key \nmanagement, shall be defined and implemented.",
+    "metadata": {
+      "clause_id": "8.24",
+      "clause_title": "Use of cryptography",
+      "section_type": "annex_a_control",
+      "page_ref": 23,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_148",
+    "source": "ISO27001",
+    "control_id": "ISO-8.25",
+    "domain": "Technological",
+    "raw_text": "8.25 Secure development life cycle Control\nRules for the secure development of software and systems shall be \nestablished and applied.",
+    "metadata": {
+      "clause_id": "8.25",
+      "clause_title": "Secure development life cycle",
+      "section_type": "annex_a_control",
+      "page_ref": 23,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_149",
+    "source": "ISO27001",
+    "control_id": "ISO-8.26",
+    "domain": "Technological",
+    "raw_text": "8.26 Application security require -\nments\nControl\nInformation security requirements shall be identified, specified and \napproved when developing or acquiring applications.",
+    "metadata": {
+      "clause_id": "8.26",
+      "clause_title": "Application security require ments",
+      "section_type": "annex_a_control",
+      "page_ref": 23,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_150",
+    "source": "ISO27001",
+    "control_id": "ISO-8.27",
+    "domain": "Technological",
+    "raw_text": "8.27 Secure system architecture and \nengineering principles\nControl\nPrinciples for engineering secure systems shall be established, docu -\nmented, maintained and applied to any information system development \nactivities.",
+    "metadata": {
+      "clause_id": "8.27",
+      "clause_title": "Secure system architecture and engineering principles",
+      "section_type": "annex_a_control",
+      "page_ref": 23,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_151",
+    "source": "ISO27001",
+    "control_id": "ISO-8.28",
+    "domain": "Technological",
+    "raw_text": "8.28 Secure coding Control\nSecure coding principles shall be applied to software development.",
+    "metadata": {
+      "clause_id": "8.28",
+      "clause_title": "Secure coding",
+      "section_type": "annex_a_control",
+      "page_ref": 23,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_152",
+    "source": "ISO27001",
+    "control_id": "ISO-8.29",
+    "domain": "Technological",
+    "raw_text": "8.29 Security testing in development \nand acceptance\nControl\nSecurity testing processes shall be defined and implemented in the \ndevelopment life cycle.",
+    "metadata": {
+      "clause_id": "8.29",
+      "clause_title": "Security testing in development and acceptance",
+      "section_type": "annex_a_control",
+      "page_ref": 23,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_153",
+    "source": "ISO27001",
+    "control_id": "ISO-8.30",
+    "domain": "Technological",
+    "raw_text": "8.30 Outsourced development Control\nThe organization shall direct, monitor and review the activities related \nto outsourced system development.",
+    "metadata": {
+      "clause_id": "8.30",
+      "clause_title": "Outsourced development",
+      "section_type": "annex_a_control",
+      "page_ref": 23,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_154",
+    "source": "ISO27001",
+    "control_id": "ISO-8.31",
+    "domain": "Technological",
+    "raw_text": "8.31 Separation of development, test \nand production environments\nControl\nDevelopment, testing and production environments shall be separated \nand secured.",
+    "metadata": {
+      "clause_id": "8.31",
+      "clause_title": "Separation of development, test and production environments",
+      "section_type": "annex_a_control",
+      "page_ref": 23,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_155",
+    "source": "ISO27001",
+    "control_id": "ISO-8.32",
+    "domain": "Technological",
+    "raw_text": "8.32 Change management Control\nChanges to information processing facilities and information systems \nshall be subject to change management procedures.",
+    "metadata": {
+      "clause_id": "8.32",
+      "clause_title": "Change management",
+      "section_type": "annex_a_control",
+      "page_ref": 23,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_156",
+    "source": "ISO27001",
+    "control_id": "ISO-8.33",
+    "domain": "Technological",
+    "raw_text": "8.33 Test information Control\nTest information shall be appropriately selected, protected and managed.\nTable A.1 (continued)Table A.1 (continued)\n© ISO/IEC 2022 – All rights reserved   \n \n17\n--``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n\n[PAGE 24]\nISO/IEC 27001:2022(E)",
+    "metadata": {
+      "clause_id": "8.33",
+      "clause_title": "Test information",
+      "section_type": "annex_a_control",
+      "page_ref": 23,
+      "annex_domain": "Technological"
+    }
+  },
+  {
+    "doc_id": "iso27001_157",
+    "source": "ISO27001",
+    "control_id": "ISO-8.34",
+    "domain": "Technological",
+    "raw_text": "8.34 Protection of information sys -\ntems during audit testing\nControl\nAudit tests and other assurance activities involving assessment of op -\nerational systems shall be planned and agreed between the tester and \nappropriate management.\nTable A.1 (continued)Table A.1 (continued)\n   © ISO/IEC 2022 – All rights reserved\n  \n18\n--``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n\n[PAGE 25]\nISO/IEC 27001:2022(E)\nBibliography\n[1] ISO/IEC 27002:2022, Information security, cybersecurity and privacy protection — Information \nsecurity controls\n[2] ISO/IEC 27003, Information technology — Security techniques — Information security management \nsystems — Guidance\n[3] ISO/IEC 27004, Information technology — Security techniques — Information security management \n— Monitoring, measurement, analysis and evaluation\n[4] ISO/IEC 27005, Information security, cybersecurity and privacy protection — Guidance on \nmanaging information security risks\n[5] ISO 31000:2018, Risk management — Guidelines\n© ISO/IEC 2022 – All rights reserved   \n \n19\n--``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n\n[PAGE 26]\nISO/IEC 27001:2022(E)\nICS 03.100.70;\t35.030\nPrice based on 19 pages\n© ISO/IEC 2022 – All rights reserved  \n--``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---",
+    "metadata": {
+      "clause_id": "8.34",
+      "clause_title": "Protection of information sys tems during audit testing",
+      "section_type": "annex_a_control",
+      "page_ref": 24,
+      "annex_domain": "Technological"
+    }
+  }
+]
