@@ -1,0 +1,5 @@
+domain,faithfulness,answer_relevancy,context_precision,context_recall
+Access Management,0.706,0.979,0.811,1.0
+Change Management,0.588,0.96,0.932,0.929
+Computer Operations,0.75,0.98,0.93,1.0
+Program Development,1.0,0.957,0.942,1.0

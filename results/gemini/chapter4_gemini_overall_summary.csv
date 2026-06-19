@@ -1,0 +1,5 @@
+,faithfulness,answer_relevancy,context_precision,context_recall
+mean,0.762,0.967,0.928,1.0
+std,0.251,0.066,0.133,0.0
+min,0.5,0.709,0.667,1.0
+max,1.0,1.0,1.0,1.0

@@ -1,0 +1,2 @@
+mode,faithfulness,answer_relevancy,context_precision,context_recall
+general,0.762,0.967,0.928,1.0

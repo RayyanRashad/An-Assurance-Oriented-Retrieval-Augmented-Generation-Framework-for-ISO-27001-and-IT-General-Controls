@@ -1,0 +1,191 @@
+q_index,domain,mode,model,question,n_chunks_retrieved,n_itgc_chunks,n_iso_chunks,faithfulness,answer_relevancy,context_precision,context_recall,answer,context_ids,ground_truth
+1,Access Management,general,gemini-2.5-flash,What evidence should an auditor collect to verify that user accounts are created only after a formal request and approval?,8,8,0,1.0,1.0,0.792,1.0,"To verify that user accounts are created only after a formal request and approval, an auditor should collect the following evidence:
+*   Formal request forms [1]
+*   Approval workflow documentation [1]
+*   System logs showing account creation [1]
+
+| Evidence Sources | Gaps |
+| :--------------- | :--- |
+| [1]              | None |",ITGC-ACC-01 | ITGC-ACC-02 | ITGC-COM-05 | ITGC-ACC-03 | ITGC-ACC-06 | ITGC-PRO-02 | ITGC-ACC-07 | ITGC-CHA-01,"To verify that user accounts are created only after formal request and approval, the auditor should collect a formal request form, approval workflow documentation, and system logs showing account creation."
+2,Access Management,general,gemini-2.5-flash,What does an auditor review to ensure that changes to user accounts are properly approved and documented?,8,8,0,,0.975,0.681,1.0,"An auditor reviews request and approval forms and change logs in the system to ensure that changes to user accounts are properly approved and documented [1].
+
+| Evidence Sources | Gaps |
+|:-----------------|:-----|
+| [1]              | None |",ITGC-ACC-02 | ITGC-ACC-07 | ITGC-ACC-01 | ITGC-COM-05 | ITGC-ACC-03 | ITGC-ACC-06 | ITGC-PRO-02 | ITGC-ACC-04,"To ensure that changes to user accounts are properly controlled, the auditor reviews request and approval forms along with change logs in the system to confirm all account modifications are approved and documented."
+3,Access Management,general,gemini-2.5-flash,What evidence is required to confirm that accounts of leavers or role changers are removed in a timely manner?,8,7,1,1.0,1.0,1.0,1.0,"To confirm that accounts of leavers or role changers are removed in a timely manner, the following evidence is required:
+- HR/IT leaver reports [1]
+- Evidence of account disabling and deletion [1]
+- Reconciliation reports to check no unauthorized active accounts [1]
+
+| Evidence Sources | Gaps |
+|------------------|------|
+| [1]              | None |",ITGC-ACC-03 | ITGC-ACC-02 | ITGC-ACC-01 | ITGC-ACC-04 | ITGC-COM-05 | ITGC-ACC-05 | ITGC-COM-01 | ISO-5.30,"To confirm that accounts of leavers or role changers are removed timely, the auditor collects HR and IT leaver reports, evidence of account disabling and deletion, and reconciliation reports to check that no unauthorised active accounts remain."
+4,Access Management,general,gemini-2.5-flash,What controls and evidence should an auditor examine to verify that privileged access is limited to authorised personnel?,8,7,1,,0.946,,1.0,"To verify that privileged access is limited to authorized personnel, an auditor should examine the following controls and evidence:
+
+**Controls:**
+The auditor reviews the control area of Privileged Accounts to ensure that privileged access is limited to authorized personnel [1].
+
+**Evidence:**
+The auditor should examine the following key checks:
+*   A list of privileged accounts from IT [1].
+*   Approval documentation for privileged access [1].
+*   Periodic review logs related to privileged access [1].
+
+| Evidence Sources | Gaps |
+| :--------------- | :--- |
+| [1]              | None |",ITGC-ACC-04 | ITGC-COM-05 | ITGC-COM-06 | ITGC-ACC-03 | ITGC-ACC-07 | ITGC-ACC-02 | ITGC-ACC-06 | ISO-6.1.3,"To verify that privileged access is limited to authorised personnel, the auditor examines a list of privileged accounts from IT, approval documentation for privileged access, and periodic review logs."
+5,Access Management,general,gemini-2.5-flash,What should an auditor review to ensure that password management controls are in place and enforced?,8,7,1,0.667,0.999,1.0,1.0,"To ensure that password management controls are in place and enforced, an auditor should review the following:
+
+*   **What Auditor Reviews**: Ensure passwords are complex and changed periodically [1].
+*   **Evidence / Key Checks**:
+    *   Password policy documentation [1]
+    *   System enforcement settings [1]
+    *   Sample user password change logs [1]
+
+| Evidence Sources | Gaps |
+| :--------------- | :--- |
+| [1]              | None |",ITGC-ACC-06 | ITGC-ACC-02 | ITGC-ACC-07 | ITGC-COM-07 | ITGC-PRO-02 | ITGC-COM-06 | ISO-6.1.3 | ITGC-ACC-01,"To ensure password management controls are in place, the auditor reviews password policy documentation, system enforcement settings, and sample user password change logs to verify that passwords are complex and changed periodically."
+6,Access Management,general,gemini-2.5-flash,What evidence should an auditor collect to verify that periodic user access reviews are being conducted and acted upon?,8,8,0,0.5,0.984,0.667,1.0,"To verify that periodic user access reviews are being conducted and acted upon, an auditor should collect the following evidence:
+*   Access review reports [1]
+*   Evidence of corrective actions taken based on the reviews [1]
+*   Approvals for continued access for existing users [1]
+
+| Evidence Sources | Gaps |
+| :--------------- | :--- |
+| [1]              | The provided context is sufficient to answer the question. |",ITGC-ACC-07 | ITGC-ACC-06 | ITGC-COM-05 | ITGC-ACC-02 | ITGC-ACC-03 | ITGC-ACC-04 | ITGC-ACC-05 | ITGC-ACC-01,"To verify that periodic user access reviews are conducted and acted upon, the auditor collects access review reports, evidence of corrective actions taken, and approvals for continued access."
+7,Change Management,general,gemini-2.5-flash,What key elements must be present in a formal change request according to ITGC change management controls?,8,6,2,,0.956,1.0,1.0,"According to ITGC change management controls, a formal change request must include a **description** and its **impact** [1]. Auditors also review the formal request itself, its logging, and tracking [1].
+
+| Evidence Sources | Gaps |
+|:-----------------|:-----|
+| [1] | The provided context confirms the need for formal change requests and mentions ""description & impact"" as elements reviewed by an auditor. However, it does not explicitly list other common elements of a formal change request form (e.g., requester, date, approval status, proposed solution, justification, priority, etc.). |",ITGC-CHA-01 | ITGC-PRO-02 | ITGC-COM-02 | ITGC-PRO-07 | ITGC-CHA-10 | ITGC-CHA-09 | ISO-8.17 | ISO-6.1.1,"A formal change request must include a formal request, logging and tracking of the change, a description of the change, and its business and technical impact."
+8,Change Management,general,gemini-2.5-flash,What roles must be kept separate under the Segregation of Duties control in change management?,8,4,4,0.5,0.956,,1.0,"Under the Segregation of Duties (SoD) control in change management, the following roles must be kept separate: requester, approver, developer, tester, and deployer [1].
+
+**Evidence Sources**
+*   [1]
+
+**Gaps**
+None. The provided context is sufficient to answer the question.",ITGC-CHA-02 | ITGC-COM-05 | ITGC-ACC-05 | ITGC-PRO-06 | ISO-9.2.1 | ISO-5.3 | ISO-5.30 | ISO-8.22,"Under the Segregation of Duties control in change management, the roles of requester, approver, developer, tester, and deployer must be kept separate so that no single individual controls the entire change lifecycle."
+9,Change Management,general,gemini-2.5-flash,What is the purpose of Change Approval in ITGC and on what basis should the CAB approve a change?,8,8,0,0.5,0.936,1.0,1.0,"The purpose of Change Approval in ITGC, as a control area, is to ensure that changes are formally reviewed and approved. While an overarching purpose statement is not explicitly provided, the context indicates that approvals are critical for ensuring changes to programs are formally requested, approved, and tested before deployment [5], and that programs are moved to production in a controlled and approved manner [8]. Additionally, business approval is required before production rollout following User Acceptance Testing (UAT) [2], and an approval process for patch and system updates helps ensure systems remain secure and stable [7].
+
+The Change Advisory Board (CAB) should approve a change based on its risk and impact [1].
+
+---
+**Evidence Sources:**
+*   [1]
+*   [2]
+*   [5]
+*   [7]
+*   [8]
+
+---
+**Gaps:**
+The provided context does not explicitly state a single, overarching purpose for ""Change Approval"" in ITGC. The purpose is inferred from the descriptions of what auditors review and the objectives of various change-related control areas.",ITGC-CHA-03 | ITGC-CHA-06 | ITGC-ACC-02 | ITGC-CHA-09 | ITGC-PRO-02 | ITGC-CHA-11 | ITGC-COM-02 | ITGC-PRO-04,Change Approval requires that the Change Advisory Board approves changes based on their risk and impact assessment before implementation proceeds.
+10,Change Management,general,gemini-2.5-flash,How should emergency changes be handled according to ITGC change management controls?,8,2,6,0.5,,1.0,1.0,"According to ITGC change management controls, emergency changes should be handled with fast-track approval and a post-review process [1].
+
+| Evidence Sources | Gaps |
+|---|---|
+| [1] | The context describes what an auditor reviews for emergency changes (fast-track approval and post-review) but does not provide detailed procedures on *how* these should be implemented, such as specific steps for fast-track approval, the scope or timing of the post-review, or the criteria for classifying a change as an emergency. |",ITGC-CHA-09 | ISO-5.12 | ITGC-CHA-04 | ISO-8.17 | ISO-8.32 | ISO-6.1.1 | ISO-5.2 | ISO-5.2,Emergency changes should follow a fast-track approval process and must be subject to a post-implementation review after the change has been deployed.
+11,Change Management,general,gemini-2.5-flash,What is the purpose of a Post-Implementation Review in change management and what does it cover?,8,8,0,1.0,0.994,1.0,1.0,"The purpose of a Post-Implementation Review in change management is to review the success or failure of the implemented change [1].
+
+It covers:
+*   Reviewing the success or failure of the change [1].
+*   Updating documentation [1].
+*   Ensuring lessons learned are captured and improvements are fed back into future projects [2].
+
+| Evidence Sources | Gaps |
+|:-----------------|:-----|
+| [1], [2]         | None |",ITGC-CHA-08 | ITGC-PRO-10 | ITGC-COM-02 | ITGC-PRO-02 | ITGC-ACC-02 | ITGC-CHA-11 | ITGC-PRO-07 | ITGC-ACC-04,"A Post-Implementation Review is conducted to review the success or failure of a deployed change and to update documentation accordingly, ensuring lessons are captured after deployment."
+12,Change Management,general,gemini-2.5-flash,What does the UAT Approval control in change management require before a change goes to production?,8,8,0,1.0,0.957,,,"The UAT Approval control in change management requires business approval before production rollout [1].
+
+| Evidence Sources | Gaps |
+|---|---|
+| [1] | None. The provided context directly answers the question. |",ITGC-CHA-06 | ITGC-PRO-02 | ITGC-CHA-09 | ITGC-CHA-03 | ITGC-ACC-02 | ITGC-PRO-04 | ITGC-CHA-10 | ITGC-CHA-01,"The UAT Approval control requires that business approval is obtained before any change is rolled out to the production environment, ensuring business stakeholders have validated the change."
+13,Change Management,general,gemini-2.5-flash,What does the Documentation and Audit Trail control require throughout the change management lifecycle?,8,8,0,1.0,0.983,,1.0,"The Documentation and Audit Trail control within Change Management requires full traceability of the change lifecycle [1].
+
+| Evidence Sources | Gaps |
+| :--------------- | :--- |
+| [1]              | None |",ITGC-CHA-10 | ITGC-ACC-06 | ITGC-PRO-02 | ITGC-PRO-05 | ITGC-COM-02 | ITGC-CHA-08 | ITGC-CHA-11 | ITGC-ACC-02,The Documentation and Audit Trail control requires full traceability of the change lifecycle so that every stage from request to deployment can be audited.
+14,Computer Operations,general,gemini-2.5-flash,What evidence should an auditor collect to verify that backup and recovery controls for critical systems are operating effectively?,8,8,0,0.5,1.0,1.0,1.0,"To verify that backup and recovery controls for critical systems are operating effectively, an auditor should collect the following evidence:
+
+*   Backup schedules (daily/weekly/monthly) for critical systems [1]
+*   Onsite, offsite, or cloud backup reports [1]
+*   Evidence of restricted access to backup configurations [1]
+*   Documentation demonstrating segregation of duties between backup operators and live data operators [1]
+*   Periodic restoration test results [1]
+
+**Evidence Sources**
+[1]
+
+**Gaps**
+None. The provided context is sufficient to answer the question.",ITGC-COM-01 | ITGC-COM-06 | ITGC-COM-04 | ITGC-COM-07 | ITGC-COM-03 | ITGC-COM-02 | ITGC-ACC-02 | ITGC-COM-05,"To verify backup and recovery controls, the auditor collects backup schedules for critical systems, onsite, offsite or cloud backup reports, evidence of restricted access to backup configurations, segregation of duties between backup operators and live data operators, and periodic restoration test results."
+15,Computer Operations,general,gemini-2.5-flash,What does an auditor review to ensure patch management controls are properly implemented and systems remain secure?,8,8,0,1.0,0.709,,1.0,"An auditor reviews to ensure systems remain secure and stable [1].
+
+**Evidence Sources**
+*   [1] ITGC-COM-02
+
+**Gaps**
+The provided context is sufficient to answer the question.",ITGC-COM-02 | ITGC-COM-06 | ITGC-ACC-02 | ITGC-PRO-02 | ITGC-ACC-06 | ITGC-PRO-01 | ITGC-COM-07 | ITGC-ACC-07,"To ensure patch management controls are implemented, the auditor reviews the formal patch management policy and approval process, testing evidence of patches before deployment, change management records for patch deployment, confirmation that access is restricted to authorised IT personnel, and documentation of failed patch attempts and their resolution."
+16,Computer Operations,general,gemini-2.5-flash,What evidence is required to confirm that IT job scheduling and processing controls are in place and failures are alerted?,8,5,3,,1.0,,1.0,"To confirm that IT job scheduling and processing controls are in place and failures are alerted, the following evidence is required:
+
+**Answer:**
+To confirm that IT job scheduling and processing controls are in place, an auditor should review:
+*   Documented job schedules and procedures [1]
+*   Defined job dependencies and sequences [1]
+*   Logs for job completion, failures, or exceptions [1]
+
+To confirm that failures are alerted, an auditor should review:
+*   Alerts triggered for failures to responsible staff [1]
+*   Automated monitoring of system performance, errors, and job failures [2]
+*   Alerts configured for operators and supervisors [2]
+*   Escalation procedures for critical incidents [2]
+*   Documentation of incident resolution and corrective actions [2]
+
+**Evidence Sources:**
+[1] ITGC-COM-03 | Domain: Computer Operation | Control Area: Job Scheduling and Processing
+[2] ITGC-COM-04 | Domain: Computer Operation | Control Area: Monitoring and Alerts
+
+**Gaps:**
+The provided context is sufficient to answer the question.",ITGC-COM-03 | ITGC-COM-04 | ITGC-COM-07 | ISO-7.11 | ITGC-COM-01 | ITGC-PRO-06 | ISO-6.1.3 | ISO-7.5.1,"To confirm job scheduling and processing controls are in place, the auditor collects documented job schedules and procedures, defined job dependencies and sequences, logs for job completion, failures or exceptions, and evidence that alerts are triggered to responsible staff upon failures."
+17,Computer Operations,general,gemini-2.5-flash,What controls does an auditor examine under monitoring and alerts to ensure timely detection and response to operational issues?,8,7,1,1.0,1.0,,1.0,"Under monitoring and alerts, an auditor examines the following controls to ensure timely detection and response to operational issues:
+*   Automated monitoring of system performance, errors, and job failures [1]
+*   Alerts configured for operators and supervisors [1]
+*   Escalation procedures for critical incidents [1]
+*   Documentation of incident resolution and corrective actions [1]
+
+| Evidence Sources | Gaps |
+|:-----------------|:-----|
+| [1]              | None |",ITGC-COM-04 | ITGC-COM-06 | ITGC-COM-03 | ITGC-COM-08 | ITGC-CHA-11 | ITGC-COM-07 | ITGC-PRO-03 | ISO-8.1,"Under monitoring and alerts controls, the auditor examines automated monitoring of system performance, errors and job failures, alerts configured for operators and supervisors, escalation procedures for critical incidents, and documentation of incident resolution and corrective actions."
+18,Program Development,general,gemini-2.5-flash,What evidence should an auditor collect to verify that program development standards and coding guidelines are being followed?,8,8,0,,1.0,1.0,1.0,"To verify that program development standards and coding guidelines are being followed, an auditor should collect the following evidence:
+*   Development guidelines documentation [1]
+*   Coding standards adherence reports [1]
+*   Peer review records [1]
+
+| Evidence Sources | Gaps |
+| :--------------- | :--- |
+| [1]              | The provided context is sufficient to answer the question. |",ITGC-PRO-01 | ITGC-PRO-05 | ITGC-PRO-03 | ITGC-PRO-04 | ITGC-PRO-02 | ITGC-PRO-11 | ITGC-PRO-09 | ITGC-PRO-07,"To verify that program development standards are followed, the auditor collects development guidelines documentation, coding standards adherence reports, and peer review records."
+19,Program Development,general,gemini-2.5-flash,"What controls and evidence are examined to ensure that all program changes are formally requested, approved, and tested before deployment?",8,8,0,0.5,0.986,,1.0,"To ensure that all program changes are formally requested, approved, and tested before deployment, the following controls and evidence are examined:
+
+**Controls:**
+*   Program Change Management [1]
+*   Testing and Quality Assurance [6]
+
+**Evidence:**
+*   Change request forms [1]
+*   Approval workflow documentation [1]
+*   Test plans and results [1]
+*   Version control logs [1]
+*   Test plans and scripts [6]
+*   Test execution results [6]
+*   Defect logs and resolution records [6]
+
+| Evidence Sources | Gaps |
+| :--------------- | :--- |
+| [1], [6]         | None |",ITGC-PRO-02 | ITGC-PRO-04 | ITGC-PRO-01 | ITGC-ACC-02 | ITGC-PRO-10 | ITGC-PRO-03 | ITGC-COM-02 | ITGC-PRO-05,"To ensure program changes are formally managed, the auditor reviews change request forms, approval workflow documentation, test plans and results, and version control logs to verify that all changes are formally requested, approved, and tested before deployment."
+20,Program Development,general,gemini-2.5-flash,What evidence should an auditor collect to verify that a Post-Implementation Review has been conducted and lessons learned are captured?,8,8,0,,1.0,1.0,1.0,"To verify that a Post-Implementation Review has been conducted and lessons learned are captured, an auditor should collect the following evidence:
+*   Post-implementation review reports [1]
+*   Lessons learned logs [1]
+*   Improvement action plans [1]
+
+| Evidence Sources | Gaps |
+| :--------------- | :--- |
+| [1]              | The context does not provide specific ISO 27001:2022 controls related to Post-Implementation Review or lessons learned. |",ITGC-PRO-10 | ITGC-CHA-08 | ITGC-COM-07 | ITGC-PRO-01 | ITGC-ACC-01 | ITGC-ACC-02 | ITGC-COM-08 | ITGC-PRO-03,"To verify that a Post-Implementation Review has been conducted, the auditor collects post-implementation review reports, lessons learned logs, and improvement action plans to confirm that lessons are captured and fed back into future projects."
